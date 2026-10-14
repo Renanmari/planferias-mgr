@@ -585,12 +585,15 @@ const maxPrice = valid.length
           ? formatMoney(metric.price)
           : 'Não disponível';
 
-        price.style.cssText = `
-          font-size: 21px;
-          font-weight: 800;
-          color: #15803d;
-          margin: 7px 0;
-        `;
+
+
+        price.style.cssText = [
+          'font-size: 21px',
+          'font-weight: 800',
+          'color: #15803d',
+          'margin: 7px 0'
+        ].join('; ');
+
 
         const description = document.createElement('div');
         description.textContent = detail;
