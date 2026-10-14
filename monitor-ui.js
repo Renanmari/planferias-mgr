@@ -456,7 +456,9 @@ const back = tripMinutes(offer.returnDuration);
          volta <= 1440;
 });
 
-      const cheapest = metrics[0];
+     const cheapest = valid.length
+  ? [...valid].sort((a, b) => a.price - b.price)[0]
+  : null;
 
       const fastest = valid.length
         ? [...valid].sort(
@@ -465,8 +467,13 @@ const back = tripMinutes(offer.returnDuration);
           )[0]
         : null;
 
-      const minPrice = Math.min(...metrics.map(m => m.price));
-      const maxPrice = Math.max(...metrics.map(m => m.price));
+     const minPrice = valid.length
+  ? Math.min(...valid.map(m => m.price))
+  : null;
+
+const maxPrice = valid.length
+  ? Math.max(...valid.map(m => m.price))
+  : null;
 
       const minDuration = valid.length
         ? Math.min(...valid.map(m => m.duration))
