@@ -263,13 +263,11 @@ function createOffer(offer) {
     passengers,
     extraInfo,
     details,
-    bookingLink,
+       bookingLink,
     disclaimer
   );
 
-  );
   return card;
-
 }
 
 (async () => {
