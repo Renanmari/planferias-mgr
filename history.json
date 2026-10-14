@@ -1,0 +1,16 @@
+[
+  {
+    "checkedAt": "2026-10-14T14:36:38.209682+00:00",
+    "status": "completed",
+    "query": {
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "adults": 1,
+      "children": 0
+    },
+    "lowestIndicativePrice": 4360,
+    "currency": "BRL"
+  }
+]

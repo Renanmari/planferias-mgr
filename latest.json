@@ -1,1 +1,147 @@
-{"updated_at":null,"status":"not_configured","offers":[],"errors":["Configure suas rotas e credenciais para iniciar as pesquisas."],"source":"Amadeus Self-Service","environment":"test"}
+{
+  "updated_at": "2026-10-14T14:36:38.209682+00:00",
+  "source": "SerpApi / Google Flights",
+  "status": "completed",
+  "offers": [
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 4360,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 4503,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 4924,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 5605,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 5605,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 5605,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 5828,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 6146,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 6812,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-22",
+      "returnDate": "2027-02-07",
+      "priceTotal": 7030,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "indicative_outbound_selection",
+      "roundTripConfirmed": false,
+      "checkedAt": "2026-10-14T14:36:38.209682+00:00"
+    }
+  ],
+  "errors": [],
+  "note": "Preços indicativos da primeira etapa; não representam ida e volta confirmadas.",
+  "query": {
+    "origin": "GRU",
+    "destination": "MCO",
+    "depart": "2027-01-22",
+    "returnDate": "2027-02-07",
+    "adults": 1,
+    "children": 0
+  }
+}
