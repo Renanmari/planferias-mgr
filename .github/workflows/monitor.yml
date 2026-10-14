@@ -19,11 +19,17 @@ jobs:
     steps:
       - name: Baixar projeto
         uses: actions/checkout@v4
+      
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Verificar sintaxe do monitor
+        run: python -m py_compile monitor.py
+
       - name: Consultar uma combinacao de datas
+
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python monitor.py
