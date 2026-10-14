@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T19:32:13.899564+00:00",
+  "updated_at": "2026-10-14T21:28:58.922212+00:00",
   "source": "SerpApi / Google Flights",
   "status": "completed",
   "offers": [
@@ -9,7 +9,7 @@
       "destination": "MCO",
       "depart": "2027-01-22",
       "returnDate": "2027-02-07",
-      "priceTotal": 15266,
+      "priceTotal": 16003,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -125,9 +125,6 @@
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
           "travel_class": "Economy",
           "flight_number": "LA 4407",
-          "ticket_also_sold_by": [
-            "Delta"
-          ],
           "legroom": "71 cm",
           "extensions": [
             "Below average legroom (71 cm)",
@@ -187,8 +184,8 @@
           "id": "BOG"
         }
       ],
-      "bookingToken": "WyJDalJJVVU1bllXaEpVSFJ0VWpCQlFVdzBTbEZDUnkwdExTMHRMUzB0TFc5cmRYZ3hNMEZCUVVGQlIzSlFNazFOUmtOcFJuZEJFZzlNUVRRME1EZDhURUUwT1RBM0l6RWFDd2k5bGwwUUFob0RRbEpNT0J4d3ZNRVMiLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkJPRyIsbnVsbCwiTEEiLCI0NDA3Il0sWyJCT0ciLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJMQSIsIjQ5MDciXV1d",
-      "checkedAt": "2026-10-14T19:32:13.899564+00:00"
+      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZzlNUVRRME1EZDhURUUwT1RBM0l6RWFDd2ptMVdFUUFob0RRbEpNT0J4d282MFQiLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkJPRyIsbnVsbCwiTEEiLCI0NDA3Il0sWyJCT0ciLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJMQSIsIjQ5MDciXV1d",
+      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
@@ -196,7 +193,7 @@
       "destination": "MCO",
       "depart": "2027-01-22",
       "returnDate": "2027-02-07",
-      "priceTotal": 17498,
+      "priceTotal": 18235,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -376,8 +373,8 @@
           "id": "ATL"
         }
       ],
-      "bookingToken": "WyJDalJJVVU1bllXaEpVSFJ0VWpCQlFVdzBTbEZDUnkwdExTMHRMUzB0TFc5cmRYZ3hNMEZCUVVGQlIzSlFNazFOUmtOcFJuZEJFZzVFVERFMU56WjhSRXd4TURVak1ob0xDSVhtYWhBQ0dnTkNVa3c0SEhEdm14VT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkFUTCIsbnVsbCwiREwiLCIxNTc2Il0sWyJBVEwiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJETCIsIjEwNSJdXV0=",
-      "checkedAt": "2026-10-14T19:32:13.899564+00:00"
+      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZzVFVERFMU56WjhSRXd4TURVak1ob0xDSzZsYnhBQ0dnTkNVa3c0SEhEaWhoWT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkFUTCIsbnVsbCwiREwiLCIxNTc2Il0sWyJBVEwiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJETCIsIjEwNSJdXV0=",
+      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
@@ -385,7 +382,7 @@
       "destination": "MCO",
       "depart": "2027-01-22",
       "returnDate": "2027-02-07",
-      "priceTotal": 17498,
+      "priceTotal": 18235,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -566,8 +563,8 @@
           "id": "ATL"
         }
       ],
-      "bookingToken": "WyJDalJJVVU1bllXaEpVSFJ0VWpCQlFVdzBTbEZDUnkwdExTMHRMUzB0TFc5cmRYZ3hNMEZCUVVGQlIzSlFNazFOUmtOcFJuZEJFZzVFVERFME9UZDhSRXd5Tmprak1ob0xDSVhtYWhBQ0dnTkNVa3c0SEhEdm14VT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkFUTCIsbnVsbCwiREwiLCIxNDk3Il0sWyJBVEwiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJETCIsIjI2OSJdXV0=",
-      "checkedAt": "2026-10-14T19:32:13.899564+00:00"
+      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZzVFVERFME9UZDhSRXd5Tmprak1ob0xDSzZsYnhBQ0dnTkNVa3c0SEhEaWhoWT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkFUTCIsbnVsbCwiREwiLCIxNDk3Il0sWyJBVEwiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJETCIsIjI2OSJdXV0=",
+      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
@@ -575,7 +572,7 @@
       "destination": "MCO",
       "depart": "2027-01-22",
       "returnDate": "2027-02-07",
-      "priceTotal": 20061,
+      "priceTotal": 20767,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -720,8 +717,8 @@
         }
       ],
       "returnLayovers": [],
-      "bookingToken": "WyJDalJJVVU1bllXaEpVSFJ0VWpCQlFVdzBTbEZDUnkwdExTMHRMUzB0TFc5cmRYZ3hNMEZCUVVGQlIzSlFNazFOUmtOcFJuZEJFZ2hNUVRneE9EY2pNUm9MQ1BlM2VoQUNHZ05DVWt3NEhIRExxUmc9IixbWyJHUlUiLCIyMDI3LTAxLTIyIiwiTUlBIixudWxsLCJMQSIsIjgxOTQiXSxbIk1JQSIsIjIwMjctMDEtMjIiLCJBVEwiLG51bGwsIkRMIiwiMTMyOCJdLFsiQVRMIiwiMjAyNy0wMS0yMiIsIk1DTyIsbnVsbCwiREwiLCIxNTYyIl1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIkxBIiwiODE4NyJdXV0=",
-      "checkedAt": "2026-10-14T19:32:13.899564+00:00"
+      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZ2hNUVRneE9EY2pNUm9MQ09MZmZoQUNHZ05DVWt3NEhIRGxqaGs9IixbWyJHUlUiLCIyMDI3LTAxLTIyIiwiTUlBIixudWxsLCJMQSIsIjgxOTQiXSxbIk1JQSIsIjIwMjctMDEtMjIiLCJBVEwiLG51bGwsIkRMIiwiMTMyOCJdLFsiQVRMIiwiMjAyNy0wMS0yMiIsIk1DTyIsbnVsbCwiREwiLCIxNTYyIl1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIkxBIiwiODE4NyJdXV0=",
+      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
@@ -729,7 +726,7 @@
       "destination": "MCO",
       "depart": "2027-01-22",
       "returnDate": "2027-02-07",
-      "priceTotal": 21037,
+      "priceTotal": 21774,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -874,8 +871,8 @@
         }
       ],
       "returnLayovers": [],
-      "bookingToken": "WyJDalJJVVU1bllXaEpVSFJ0VWpCQlFVdzBTbEZDUnkwdExTMHRMUzB0TFc5cmRYZ3hNMEZCUVVGQlIzSlFNazFOUmtOcFJuZEJFZ2hNUVRneE1qY2pNUm9NQ0pDemdBRVFBaG9EUWxKTU9CeHdtOEVaIixbWyJHUlUiLCIyMDI3LTAxLTIyIiwiTUlBIixudWxsLCJMQSIsIjgxOTQiXSxbIk1JQSIsIjIwMjctMDEtMjIiLCJBVEwiLG51bGwsIkRMIiwiMTMyOCJdLFsiQVRMIiwiMjAyNy0wMS0yMiIsIk1DTyIsbnVsbCwiREwiLCIxNTYyIl1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIkxBIiwiODEyNyJdXV0=",
-      "checkedAt": "2026-10-14T19:32:13.899564+00:00"
+      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZ2hNUVRneE1qY2pNUm9NQ0xueWhBRVFBaG9EUWxKTU9CeHcxcW9hIixbWyJHUlUiLCIyMDI3LTAxLTIyIiwiTUlBIixudWxsLCJMQSIsIjgxOTQiXSxbIk1JQSIsIjIwMjctMDEtMjIiLCJBVEwiLG51bGwsIkRMIiwiMTMyOCJdLFsiQVRMIiwiMjAyNy0wMS0yMiIsIk1DTyIsbnVsbCwiREwiLCIxNTYyIl1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIkxBIiwiODEyNyJdXV0=",
+      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
     }
   ],
   "errors": [],
