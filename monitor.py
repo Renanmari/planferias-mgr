@@ -86,7 +86,24 @@ def main():
                 output['errors'].append('A API não retornou uma opção de ida com departure_token; nenhum preço completo registrado.')
             else:
                 # Escolher uma opção de ida, preferindo o menor preço indicativo.
-                outbound = min(choices, key=lambda x: x.get('price') if isinstance(x.get('price'), (int, float)) else float('inf'))
+               
+                valid_choices = [
+                    x for x in choices
+                    if isinstance(x.get('total_duration'), (int, float))
+                    and 0 < x['total_duration'] <= 1440
+                    and isinstance(x.get('price'), (int, float))
+                    and x['price'] > 0
+                ]
+
+                outbound = min(
+                    valid_choices or choices,
+                    key=lambda x: (
+                        x.get('price')
+                        if isinstance(x.get('price'), (int, float))
+                        else float('inf')
+                    )
+                )
+
                 second_params = dict(params)
                 second_params['departure_token'] = outbound['departure_token']
                 output['apiQueries'] += 1
