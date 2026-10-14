@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "orlando-2027-teste",
+    "origin": "GRU",
+    "destination": "MCO",
+    "departStart": "2027-01-21",
+    "departEnd": "2027-01-24",
+    "returnStart": "2027-02-07",
+    "returnEnd": "2027-02-09",
+    "adults": 1,
+    "children": 0,
+    "enabled": true
+  }
+]
