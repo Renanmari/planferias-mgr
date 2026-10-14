@@ -288,14 +288,29 @@ function createOffer(offer) {
 
     const data = await response.json();
 
-    const offers = (data.offers || [])
-      .filter(offer =>
-        offer.roundTripConfirmed === true &&
-        offer.priceType === 'roundtrip_selection' &&
-        Number.isFinite(Number(offer.priceTotal)) &&
-        Number(offer.priceTotal) > 0
-      )
-      .sort((a, b) => a.priceTotal - b.priceTotal);
+    
+const offers = (data.offers || [])
+  .filter(offer => {
+    const ida = Number(offer.outboundDuration);
+    const volta = Number(offer.returnDuration);
+
+    return (
+      offer.roundTripConfirmed === true &&
+      offer.priceType === 'roundtrip_selection' &&
+      Number.isFinite(Number(offer.priceTotal)) &&
+      Number(offer.priceTotal) > 0 &&
+      offer.outboundDuration != null &&
+      offer.returnDuration != null &&
+      Number.isFinite(ida) &&
+      Number.isFinite(volta) &&
+      ida > 0 &&
+      volta > 0 &&
+      ida <= 1440 &&
+      volta <= 1440
+    );
+  })
+  .sort((a, b) => a.priceTotal - b.priceTotal);
+
 
     const updated = data.updated_at
       ? new Date(data.updated_at).toLocaleString('pt-BR')
