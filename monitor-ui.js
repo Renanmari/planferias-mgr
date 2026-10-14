@@ -374,20 +374,7 @@ const offers = (data.offers || [])
   };
 
 
-    const first = flights[0];
-    const last = flights[flights.length - 1];
-
-    const start = parseTime(first?.departure_airport?.time);
-    const end = parseTime(last?.arrival_airport?.time);
-
-    if (!Number.isFinite(start) || !Number.isFinite(end)) {
-      return null;
-    }
-
-    const minutes = Math.round((end - start) / 60000);
-    return minutes >= 0 ? minutes : null;
-  };
-
+    
   const longestConnection = flights => {
     if (!Array.isArray(flights) || flights.length < 2) {
       return 0;
