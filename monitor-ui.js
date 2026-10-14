@@ -429,14 +429,30 @@ const offers = (data.offers || [])
 
       const data = await response.json();
 
-      const offers = (data.offers || [])
-        .filter(o =>
-          o.roundTripConfirmed === true &&
-          o.priceType === 'roundtrip_selection' &&
-          Number(o.priceTotal) > 0
-        )
-        .sort((a, b) => a.priceTotal - b.priceTotal)
-        .slice(0, 20);
+      
+const offers = (data.offers || [])
+  .filter(o => {
+    const ida = Number(o.outboundDuration);
+    const volta = Number(o.returnDuration);
+
+    return (
+      o.roundTripConfirmed === true &&
+      o.priceType === 'roundtrip_selection' &&
+      Number.isFinite(Number(o.priceTotal)) &&
+      Number(o.priceTotal) > 0 &&
+      o.outboundDuration != null &&
+      o.returnDuration != null &&
+      Number.isFinite(ida) &&
+      Number.isFinite(volta) &&
+      ida > 0 &&
+      volta > 0 &&
+      ida <= 1440 &&
+      volta <= 1440
+    );
+  })
+  .sort((a, b) => a.priceTotal - b.priceTotal)
+  .slice(0, 20);
+
 
       if (!offers.length) return;
 
