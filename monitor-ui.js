@@ -347,10 +347,17 @@ function createOffer(offer) {
     return Date.parse(value.replace(' ', 'T'));
   };
 
-  const tripMinutes = flights => {
-    if (!Array.isArray(flights) || !flights.length) {
-      return null;
-    }
+  
+  const tripMinutes = value => {
+    const minutes = Number(value);
+
+    return Number.isFinite(minutes) &&
+           minutes > 0 &&
+           minutes <= 1440
+      ? minutes
+      : null;
+  };
+
 
     const first = flights[0];
     const last = flights[flights.length - 1];
@@ -419,8 +426,8 @@ function createOffer(offer) {
       if (!offers.length) return;
 
       const metrics = offers.map((offer, index) => {
-        const out = tripMinutes(offer.outboundFlights);
-        const back = tripMinutes(offer.returnFlights);
+       const out = tripMinutes(offer.outboundDuration);
+const back = tripMinutes(offer.returnDuration);
 
         return {
           offer,
