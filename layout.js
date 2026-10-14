@@ -263,3 +263,168 @@
     start();
   }
 })();
+/* planferias MGR — aprimoramento visual */
+(() => {
+  const style = document.createElement('style');
+
+  style.textContent = `
+    :root {
+      color-scheme: dark;
+    }
+
+    body {
+      background: #0b1220 !important;
+      color: #f8fafc;
+      font-size: 17px !important;
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 1200px !important;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 24px 32px;
+    }
+
+    h1 {
+      font-size: clamp(28px, 3vw, 38px);
+      font-weight: 750;
+      letter-spacing: -0.6px;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 1.35;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    p, small {
+      color: #d8e3f3;
+    }
+
+    .panel, .mgr-history {
+      background: #1b2b42 !important;
+      border: 1px solid #3c506b;
+      border-radius: 18px;
+      padding: 26px;
+      box-shadow: 0 8px 25px rgba(0,0,0,.15);
+    }
+
+    #mgr-tabs {
+      display: flex;
+      gap: 10px;
+      background: #0b1220 !important;
+      padding: 16px 0;
+    }
+
+    #mgr-tabs button {
+      font-size: 17px !important;
+      font-weight: 650;
+      min-height: 48px;
+      padding: 12px 20px;
+      background: #273b59;
+      border: 1px solid #516b90;
+      border-radius: 12px;
+    }
+
+    #mgr-tabs button[aria-selected="true"] {
+      background: #2563eb;
+      border-color: #93c5fd;
+      color: #ffffff;
+    }
+
+    #mgr-tab-content {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .mgr-pane {
+      width: 100%;
+    }
+
+    #mgr-ofertas .route {
+      background: #243752;
+      border: 1px solid #456181 !important;
+      border-radius: 15px;
+      padding: 20px !important;
+      margin: 16px 0;
+      font-size: 17px !important;
+      line-height: 1.7;
+    }
+
+    #mgr-ofertas .route > div:first-child {
+      font-size: 28px !important;
+      font-weight: 800 !important;
+      color: #ffffff;
+      line-height: 1.25;
+    }
+
+    #mgr-ofertas .route summary {
+      background: #31527d;
+      border-radius: 9px;
+      padding: 12px 14px;
+      margin-top: 12px;
+      font-size: 16px;
+      font-weight: 650;
+      cursor: pointer;
+      color: #ffffff;
+    }
+
+    #mgr-ofertas .route summary:hover {
+      background: #3d6495;
+    }
+
+    .mgr-history table {
+      font-size: 16px !important;
+    }
+
+    .mgr-history th,
+    .mgr-history td {
+      padding: 14px 12px !important;
+      border-bottom: 1px solid #526783;
+    }
+
+    input, select, button {
+      font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 16px !important;
+      }
+
+      main {
+        padding: 14px !important;
+      }
+
+      .panel, .mgr-history {
+        padding: 18px;
+      }
+
+      #mgr-tabs {
+        gap: 6px;
+        overflow-x: auto;
+      }
+
+      #mgr-tabs button {
+        font-size: 14px !important;
+        padding: 10px 12px;
+      }
+
+      #mgr-ofertas .route {
+        padding: 16px !important;
+      }
+
+      #mgr-ofertas .route > div:first-child {
+        font-size: 25px !important;
+      }
+    }
+  `;
+
+  document.head.appendChild(style);
+})();
+
