@@ -1,33 +1,39 @@
-
 name: Monitoramento de tarifas
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9,21 * * *"
+    - cron: '0 9,21 * * *'
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: monitoramento-tarifas
+  cancel-in-progress: false
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - name: Baixar projeto
         uses: actions/checkout@v4
-
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-
-      - name: Instalar dependencias
-        run: pip install -r requirements.txt
-
-      - name: Executar monitoramento
+          python-version: '3.11'
+      - name: Consultar uma combinacao de datas
         env:
-          AMADEUS_CLIENT_ID: ${{ secrets.AMADEUS_CLIENT_ID }}
-          AMADEUS_CLIENT_SECRET: ${{ secrets.AMADEUS_CLIENT_SECRET }}
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python monitor.py
+      - name: Salvar resultados no repositorio
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add latest.json history.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualizar resultados do monitoramento'
+            git push
+          fi
