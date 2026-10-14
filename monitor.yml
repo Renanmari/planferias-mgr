@@ -1,0 +1,31 @@
+name: Monitorar tarifas
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 10,22 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: flight-monitor
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar tarifas autorizadas
+        env:
+          AMADEUS_CLIENT_ID: ${{ secrets.AMADEUS_CLIENT_ID }}
+          AMADEUS_CLIENT_SECRET: ${{ secrets.AMADEUS_CLIENT_SECRET }}
+          AMADEUS_BASE_URL: ${{ vars.AMADEUS_BASE_URL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/scan.py
+      - name: Publicar resultados sem credenciais
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/latest.json
+          git diff --cached --quiet || (git commit -m 'Atualizar pesquisa de tarifas' && git push)
