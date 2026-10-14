@@ -204,10 +204,22 @@
       for (const item of rows) {
         const tr = document.createElement('tr');
         const q = item.query || {};
-        const price =
-          item.lowestIndicativePrice ??
-          item.lowestPrice ??
-          null;
+
+const price =
+  item.lowestRoundTripPrice ??
+  item.lowestIndicativePrice ??
+  item.lowestPrice ??
+  null;
+
+const priceType =
+  typeof item.lowestRoundTripPrice === 'number'
+    ? 'Tarifa completa'
+    : typeof item.lowestIndicativePrice === 'number'
+      ? 'Indicativo'
+      : typeof item.lowestPrice === 'number'
+        ? 'Tipo não identificado'
+        : 'Sem preço';
+
 
         const values = [
           item.checkedAt || item.updated_at || '—',
@@ -215,11 +227,11 @@
             ? `${q.origin} → ${q.destination}`
             : '—',
           typeof price === 'number'
-            ? price.toLocaleString('pt-BR',{
-                style:'currency',
-                currency:item.currency || 'BRL'
-              })
-            : 'Sem preço'
+  ? price.toLocaleString('pt-BR', {
+      style: 'currency',
+      currency: item.currency || 'BRL'
+    }) + ' (' + priceType + ')'
+  : 'Sem preço'
         ];
 
         for (const v of values) {
