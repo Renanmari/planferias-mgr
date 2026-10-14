@@ -174,8 +174,68 @@ function createOffer(offer) {
     'Tarifa consultada, sujeita a alteração. ' +
     'Confirme disponibilidade, bagagem e preço final antes da compra.';
 
-  card.append(title, company, route, passengers, details, disclaimer);
+  
+  // Preço médio calculado a partir do total do grupo.
+  const adults = Number(offer.passengers?.adults || 0);
+  const children = Number(offer.passengers?.children || 0);
+  const passengerCount = adults + children;
+
+  const extraInfo = document.createElement('div');
+  extraInfo.className = 'mgr-offer-extra';
+  extraInfo.style.cssText = `
+    margin-top: 14px;
+    padding: 14px;
+    background: #edf4ff;
+    border: 1px solid #d4e3fa;
+    border-radius: 10px;
+    color: #17365d;
+    font-size: 15px;
+    line-height: 1.7;
+  `;
+
+  const average = document.createElement('div');
+  average.style.fontWeight = '700';
+  average.textContent = passengerCount > 0
+    ? `Preço médio por passageiro: ${money(offer.priceTotal / passengerCount)}`
+    : 'Preço médio por passageiro: não disponível';
+
+  const explanation = document.createElement('div');
+  explanation.style.fontSize = '13px';
+  explanation.style.color = '#475569';
+  explanation.textContent =
+    'Média calculada sobre o valor total do grupo. ' +
+    'Não representa necessariamente a tarifa individual de adultos e crianças.';
+
+  const baggage = document.createElement('div');
+  baggage.style.marginTop = '10px';
+
+  const cabin = document.createElement('div');
+  cabin.textContent = '▣ Bagagem de cabine: franquia não informada';
+
+  const checked = document.createElement('div');
+  checked.textContent = '▤ Bagagem despachada: franquia e preço não informados';
+
+  const baggageNote = document.createElement('div');
+  baggageNote.style.fontSize = '13px';
+  baggageNote.style.color = '#475569';
+  baggageNote.textContent =
+    'Preço com bagagem adicional: indisponível. ' +
+    'Confirme as condições da tarifa antes da compra.';
+
+  baggage.append(cabin, checked, baggageNote);
+  extraInfo.append(average, explanation, baggage);
+
+  card.append(
+    title,
+    company,
+    route,
+    passengers,
+    extraInfo,
+    details,
+    disclaimer
+  );
   return card;
+
 }
 
 (async () => {
