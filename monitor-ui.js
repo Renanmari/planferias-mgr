@@ -225,6 +225,37 @@ function createOffer(offer) {
   baggage.append(cabin, checked, baggageNote);
   extraInfo.append(average, explanation, baggage);
 
+
+  const bookingLink = document.createElement('a');
+
+  const searchParams = new URLSearchParams({
+    q: `Voos ${offer.origin} para ${offer.destination} ` +
+       `${offer.depart} ida e ${offer.returnDate} volta ` +
+       `${offer.passengers?.adults || 1} adultos ` +
+       `${offer.passengers?.children || 0} crianças`
+  });
+
+  bookingLink.href =
+    'https://www.google.com/travel/flights?' +
+    searchParams.toString();
+
+  bookingLink.target = '_blank';
+  bookingLink.rel = 'noopener noreferrer';
+  bookingLink.textContent = 'Pesquisar esta viagem no Google Flights';
+
+  bookingLink.style.cssText = `
+    display: block;
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: #2563eb;
+    color: white !important;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+  `;
+
   card.append(
     title,
     company,
@@ -232,7 +263,10 @@ function createOffer(offer) {
     passengers,
     extraInfo,
     details,
+    bookingLink,
     disclaimer
+  );
+
   );
   return card;
 
