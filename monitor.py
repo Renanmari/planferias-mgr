@@ -103,8 +103,11 @@ def main():
                         'priceType': 'roundtrip_selection', 'roundTripConfirmed': True,
                         'passengers': {'adults': adults, 'children': children},
                         'outboundFlights': outbound.get('flights', []),
-                        'returnFlights': option.get('flights', []),
-                        'checkedAt': now.isoformat()
+                        
+'returnFlights': option.get('flights', []),
+'bookingToken': option.get('booking_token'),
+'checkedAt': now.isoformat()
+
                     })
                 output['offers'].sort(key=lambda x: x['priceTotal'])
                 output['status'] = 'completed' if output['offers'] else 'no_roundtrip_options'
