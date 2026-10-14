@@ -102,11 +102,16 @@ def main():
                         'source': 'SerpApi / Google Flights',
                         'priceType': 'roundtrip_selection', 'roundTripConfirmed': True,
                         'passengers': {'adults': adults, 'children': children},
-                        'outboundFlights': outbound.get('flights', []),
                         
+'outboundFlights': outbound.get('flights', []),
 'returnFlights': option.get('flights', []),
+'outboundDuration': outbound.get('total_duration'),
+'returnDuration': option.get('total_duration'),
+'outboundLayovers': outbound.get('layovers', []),
+'returnLayovers': option.get('layovers', []),
 'bookingToken': option.get('booking_token'),
 'checkedAt': now.isoformat()
+
 
                     })
                 output['offers'].sort(key=lambda x: x['priceTotal'])
