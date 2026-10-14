@@ -427,4 +427,218 @@
 
   document.head.appendChild(style);
 })();
+/* planferias MGR — tema claro e cartões de tarifas */
+(() => {
+  const style = document.createElement('style');
+
+  style.textContent = `
+    :root { color-scheme: light !important; }
+
+    html, body {
+      background: #f2f5fa !important;
+      color: #172b4d !important;
+    }
+
+    body {
+      font-size: 17px !important;
+      line-height: 1.6 !important;
+    }
+
+    main {
+      max-width: 1200px !important;
+      width: 100% !important;
+      padding: 26px 32px !important;
+      box-sizing: border-box;
+    }
+
+    main > h1 {
+      color: #17365d !important;
+      font-size: clamp(30px, 3vw, 40px) !important;
+      font-weight: 800;
+    }
+
+    main > p,
+    p, small {
+      color: #475569 !important;
+    }
+
+    h2, h3, h4 {
+      color: #17365d !important;
+    }
+
+    h2 {
+      font-size: 25px !important;
+    }
+
+    #mgr-tabs {
+      background: #f2f5fa !important;
+      padding: 18px 0 !important;
+      gap: 10px !important;
+    }
+
+    #mgr-tabs button {
+      background: #ffffff !important;
+      color: #23436b !important;
+      border: 1px solid #cad5e5 !important;
+      font-size: 16px !important;
+      font-weight: 700 !important;
+      padding: 12px 20px !important;
+      border-radius: 12px !important;
+    }
+
+    #mgr-tabs button[aria-selected="true"] {
+      background: #2563eb !important;
+      color: #ffffff !important;
+      border-color: #2563eb !important;
+    }
+
+    .panel, .mgr-history {
+      background: #ffffff !important;
+      color: #172b4d !important;
+      border: 1px solid #dce4ef !important;
+      border-radius: 18px !important;
+      padding: 28px !important;
+      box-shadow: 0 5px 18px rgba(30, 55, 90, .07);
+    }
+
+    #scanStatus {
+      background: #edf4ff;
+      color: #31527d !important;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    #liveOffers {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    #liveOffers > .route {
+      background: #ffffff !important;
+      border: 1px solid #d8e2ee !important;
+      border-left: 5px solid #2563eb !important;
+      border-radius: 15px !important;
+      padding: 22px !important;
+      margin: 0 !important;
+      color: #24364f !important;
+      box-shadow: 0 5px 14px rgba(30, 55, 90, .08);
+      font-size: 16px !important;
+      line-height: 1.7;
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    #liveOffers > .route:first-child {
+      border-left-color: #16a34a !important;
+      background: #f5fff8 !important;
+    }
+
+    #liveOffers > .route > div:first-child {
+      color: #15803d !important;
+      font-size: 30px !important;
+      font-weight: 800 !important;
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+
+    #liveOffers > .route > div:nth-child(2) {
+      color: #17365d !important;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    #liveOffers > .route > div:nth-child(3) {
+      color: #334155 !important;
+      font-size: 16px;
+    }
+
+    #liveOffers > .route > div:nth-child(4) {
+      color: #475569 !important;
+      font-size: 15px;
+    }
+
+    #liveOffers details {
+      border-top: 1px solid #dce4ef;
+      margin-top: 16px !important;
+      padding-top: 12px;
+    }
+
+    #liveOffers summary {
+      background: #e8f0ff !important;
+      color: #1d4ed8 !important;
+      border-radius: 9px;
+      padding: 11px 13px;
+      font-size: 15px !important;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    #liveOffers details[open] {
+      color: #334155 !important;
+    }
+
+    #liveOffers .route > div:last-child {
+      color: #64748b !important;
+      font-size: 13px !important;
+      margin-top: 15px !important;
+    }
+
+    .mgr-history th, .mgr-history td {
+      color: #24364f !important;
+      border-bottom: 1px solid #dce4ef !important;
+      font-size: 15px !important;
+    }
+
+    label {
+      color: #24364f !important;
+    }
+
+    input, select, textarea {
+      background: #ffffff !important;
+      color: #172b4d !important;
+      border: 1px solid #94a3b8 !important;
+    }
+
+    button:not(#mgr-tabs button) {
+      background: #2563eb;
+      color: #ffffff;
+    }
+
+    a { color: #1d4ed8 !important; }
+
+    @media (max-width: 800px) {
+      #liveOffers {
+        grid-template-columns: 1fr;
+      }
+
+      main {
+        padding: 16px !important;
+      }
+
+      .panel, .mgr-history {
+        padding: 18px !important;
+      }
+
+      #liveOffers > .route {
+        padding: 18px !important;
+      }
+
+      #liveOffers > .route > div:first-child {
+        font-size: 27px !important;
+      }
+
+      #mgr-tabs button {
+        padding: 10px 13px !important;
+        font-size: 14px !important;
+      }
+    }
+  `;
+
+  document.head.appendChild(style);
+})();
+
 
