@@ -7,8 +7,9 @@
     "departEnd": "2027-01-24",
     "returnStart": "2027-02-07",
     "returnEnd": "2027-02-09",
-    "adults": 1,
-    "children": 0,
+    "adults": 2,
+    "children": 1,
+    "childAgeAtTravel": 6,
     "enabled": true
   }
 ]
