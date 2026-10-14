@@ -1,3 +1,136 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101827"><link rel="manifest" href="manifest.webmanifest"><title>planférias MGR</title><style>body{margin:0;background:#101827;color:#f5f7ff;font:15px system-ui}main{max-width:850px;margin:auto;padding:24px}h1{margin-bottom:4px}p,small{color:#b6c4d8}.panel{background:#1d2a3f;border-radius:15px;padding:20px;margin:18px 0}input,button,select{box-sizing:border-box;border-radius:8px;border:1px solid #51617a;padding:12px;background:#101827;color:white}input,select{width:100%}label{display:block;margin-top:12px;margin-bottom:5px}button{cursor:pointer;background:#4474de;border:0;margin-top:15px}button.secondary{background:#35435a}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.route{border-top:1px solid #52647f;padding:12px 0}.tag{color:#85e6ac}a{color:#a6c8ff}</style></head><body><main><h1>✈ planférias MGR</h1><p>Monitoramento pessoal de passagens aéreas · Painel pessoal · consultas reais somente após integração</p><section class="panel"><h2>Nova rota</h2><form id="routeForm"><div class="grid"><div><label>Origem (IATA)</label><input id="origin" maxlength="3" placeholder="GRU" required pattern="[A-Za-z]{3}"></div><div><label>Destino (IATA)</label><input id="destination" maxlength="3" placeholder="MCO" required pattern="[A-Za-z]{3}"></div><div><label>Ida inicial</label><input id="depart" type="date" required></div><div><label>Volta inicial</label><input id="returnDate" type="date" required></div><div><label>Flexibilidade (dias ±)</label><input id="flex" type="number" min="0" max="15" value="3" required></div><div><label>Preço máximo (R$)</label><input id="maxPrice" type="number" min="1" step="1" required></div></div><h3>Alternativas de ida e volta</h3><p>Defina trajetos adicionais. Cada linha representa uma opção completa (origem e destino) para o trecho escolhido. Deixe em branco para usar apenas a rota principal.</p><div class="grid"><div><label>Flexibilidade da ida (± dias)</label><input id="flexOut" type="number" min="0" max="15" value="3"></div><div><label>Flexibilidade da volta (± dias)</label><input id="flexBack" type="number" min="0" max="15" value="3"></div></div><div class="grid"><div><h4>Opções para a ida</h4><div id="outAlternatives"></div><button type="button" class="secondary" id="addOut">+ Alternativa de ida</button></div><div><h4>Opções para a volta</h4><div id="backAlternatives"></div><button type="button" class="secondary" id="addBack">+ Alternativa de volta</button></div></div><label><input id="allowOpenJaw" type="checkbox" style="width:auto"> Permitir ida e volta por aeroportos diferentes (multidestinos)</label><p><small>Exemplo: ida GRU → MCO, volta MIA → GRU. O sistema futuro só comparará combinações compatíveis com esta escolha.</small></p><button type="submit">Adicionar rota</button></form></section><section class="panel"><h2>Minhas rotas</h2><div id="routes"></div></section><section class="panel"><h2>Análise histórica de preços</h2><p>Registre preços reais observados para construir seu histórico. Dados de anos anteriores só aparecem se forem importados ou informados com fonte identificada.</p><div class="grid"><div><label>Rota cadastrada</label><select id="historyRoute"></select></div><div><label>Data da observação</label><input type="date" id="observedAt"></div><div><label>Preço total por pessoa (R$)</label><input type="number" id="observedPrice" min="1" step="0.01" placeholder="Ex.: 2450"></div><div><label>Fonte do preço</label><input id="observedSource" placeholder="Ex.: LATAM / Google Flights"></div></div><button id="addObservation" type="button">Registrar preço observado</button><p id="historySummary">Cadastre uma rota e observações para começar.</p><div id="historyChart"></div><p><small>Comparações apenas entre observações compatíveis de ida e volta, datas/períodos, passageiros e condições tarifárias. Sem dados suficientes, o aplicativo indica histórico insuficiente. Os valores são armazenados neste navegador.</small></p></section><section class="panel"><h2>Sincronizar rotas para o monitoramento</h2><p>As rotas deste navegador não são enviadas automaticamente ao GitHub. Exporte o arquivo e substitua <code>routes.json</code> no repositório para ativar o monitoramento. Não exporte dados sensíveis.</p><button type="button" id="exportRoutes">Baixar routes.json</button></section><section class="panel"><h2>Tarifas consultadas</h2><p id="scanStatus">Carregando resultados...</p><div id="liveOffers"></div></section><section class="panel"><h2>Resultados e alertas</h2><p id="status">Nenhuma fonte de tarifas conectada. Nenhum preço será inventado.</p><button id="notify" class="secondary">Testar permissão de notificação</button><p><small>Este botão testa apenas a permissão local. Alertas push em segundo plano exigem servidor e assinatura Web Push.</small></p></section><p><small>Os dados das rotas ficam armazenados neste navegador. Não insira chaves de API no código do navegador.</small></p></main><script src="app.js"></script><script src="monitor-ui.js"></script>
+
+<style>
+/* planferias MGR - melhoria visual */
+:root { color-scheme: dark; }
+
+body {
+  background: #0b1220;
+  color: #f8fafc;
+  font: 16px/1.6 system-ui, Arial, sans-serif;
+}
+
+main {
+  max-width: 1100px;
+  padding: 24px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Reposiciona o cabecalho acima das abas */
+main > h1 { order: -2; }
+main > p:first-of-type { order: -1; }
+#mgr-tabs { order: 0; }
+#mgr-tab-content { order: 1; }
+main > p:last-of-type { order: 2; }
+
+h1 {
+  font-size: clamp(26px, 4vw, 36px);
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+h2 { font-size: 23px; line-height: 1.3; }
+h3 { font-size: 19px; }
+h4 { font-size: 17px; }
+
+p, small {
+  color: #d3deee;
+  line-height: 1.6;
+}
+
+small { font-size: 14px; }
+
+.panel, .mgr-history {
+  background: #1c2b42;
+  border: 1px solid #344761;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 16px 0;
+  box-shadow: 0 6px 22px rgba(0,0,0,.12);
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #edf3ff;
+}
+
+input, select {
+  background: #101c30;
+  border: 1px solid #7185a3;
+  color: #fff;
+  min-height: 46px;
+  font-size: 16px;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  min-height: 44px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 11px 16px;
+}
+
+button:hover { filter: brightness(1.12); }
+button:focus-visible, input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+button.secondary { background: #364b69; }
+
+#mgr-tabs {
+  background: #0b1220;
+  gap: 10px;
+  padding: 14px 0;
+}
+
+#mgr-tabs button {
+  font-size: 16px;
+  min-height: 46px;
+  padding: 11px 18px;
+  background: #273a56;
+}
+
+#mgr-tabs button[aria-selected="true"] {
+  background: #2563eb;
+  border-color: #93c5fd;
+}
+
+.route {
+  padding: 18px 0;
+  line-height: 1.7;
+  font-size: 16px;
+  border-color: #536783;
+}
+
+.route summary { cursor: pointer; }
+
+.tag { color: #a7f3d0; }
+a { color: #bfdbfe; }
+
+.mgr-history table {
+  font-size: 15px;
+}
+
+.mgr-history th, .mgr-history td {
+  padding: 13px 10px;
+}
+
+@media (max-width: 600px) {
+  main { padding: 14px; }
+  .panel, .mgr-history { padding: 17px; }
+  h2 { font-size: 21px; }
+  #mgr-tabs { gap: 6px; }
+  #mgr-tabs button {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
+</style>
 <script src="./layout.js"></script>
 </body></html>
