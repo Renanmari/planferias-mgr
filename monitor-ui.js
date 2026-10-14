@@ -444,9 +444,17 @@ const back = tripMinutes(offer.returnDuration);
         };
       });
 
-      const valid = metrics.filter(
-        m => m.duration !== null
-      );
+      const valid = metrics.filter(m => {
+  const ida = Number(m.offer.outboundDuration);
+  const volta = Number(m.offer.returnDuration);
+
+  return Number.isFinite(ida) &&
+         Number.isFinite(volta) &&
+         ida > 0 &&
+         volta > 0 &&
+         ida <= 1440 &&
+         volta <= 1440;
+});
 
       const cheapest = metrics[0];
 
