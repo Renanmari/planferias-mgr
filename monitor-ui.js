@@ -571,14 +571,16 @@ const maxPrice = valid.length
       };
 
       grid.append(
-        makeCard(
-          'Menor preço',
-          cheapest,
-          cheapest.duration !== null
-            ? 'Duração total: ' +
-              formatMinutes(cheapest.duration)
-            : 'Duração não informada'
-        ),
+        
+makeCard(
+  'Menor preço',
+  cheapest,
+  cheapest && cheapest.duration !== null
+    ? 'Duração total: ' +
+      formatMinutes(cheapest.duration)
+    : 'Nenhuma oferta válida dentro do limite de 24h por trecho'
+),
+
         makeCard(
           'Menor duração',
           fastest,
