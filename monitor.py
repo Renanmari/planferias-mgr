@@ -104,56 +104,72 @@ def main():
                     )
                 )
 
+                
                 second_params = dict(params)
                 second_params['departure_token'] = outbound['departure_token']
                 output['apiQueries'] += 1
-                
-            second = fetch(second_params)
+                second = fetch(second_params)
 
-            for option in flights(second):
-                price = option.get('price')
+                for option in flights(second):
+                    price = option.get('price')
 
-                if not isinstance(price, (int, float)) or price <= 0:
-                    continue
+                    if not isinstance(price, (int, float)) or price <= 0:
+                        continue
 
-                outbound_duration = outbound.get('total_duration')
-                return_duration = option.get('total_duration')
+                    outbound_duration = outbound.get('total_duration')
+                    return_duration = option.get('total_duration')
 
-                if not isinstance(outbound_duration, (int, float)):
-                    continue
+                    if not isinstance(outbound_duration, (int, float)):
+                        continue
+                    if not isinstance(return_duration, (int, float)):
+                        continue
 
-                if not isinstance(return_duration, (int, float)):
-                    continue
-
-                if outbound_duration <= 0 or return_duration <= 0:
-                    continue
-
-                if outbound_duration > 1440 or return_duration > 1440:
-                    continue
+                    if not (0 < outbound_duration <= 1440):
+                        continue
+                    if not (0 < return_duration <= 1440):
+                        continue
 
                     output['offers'].append({
-                        'routeId': route['id'], 'origin': origin, 'destination': destination,
-                        'depart': dep.isoformat(), 'returnDate': ret.isoformat(),
-                        'priceTotal': price, 'currency': 'BRL',
+                        'routeId': route['id'],
+                        'origin': origin,
+                        'destination': destination,
+                        'depart': dep.isoformat(),
+                        'returnDate': ret.isoformat(),
+                        'priceTotal': price,
+                        'currency': 'BRL',
                         'source': 'SerpApi / Google Flights',
-                        'priceType': 'roundtrip_selection', 'roundTripConfirmed': True,
-                        'passengers': {'adults': adults, 'children': children},
-                        
-'outboundFlights': outbound.get('flights', []),
-'returnFlights': option.get('flights', []),
-'outboundDuration': outbound.get('total_duration'),
-'returnDuration': option.get('total_duration'),
-'outboundLayovers': outbound.get('layovers', []),
-'returnLayovers': option.get('layovers', []),
-'bookingToken': option.get('booking_token'),
-'checkedAt': now.isoformat()
-
-
+                        'priceType': 'roundtrip_selection',
+                        'roundTripConfirmed': True,
+                        'passengers': {
+                            'adults': adults,
+                            'children': children
+                        },
+                        'outboundFlights': outbound.get('flights', []),
+                        'returnFlights': option.get('flights', []),
+                        'outboundDuration': outbound_duration,
+                        'returnDuration': return_duration,
+                        'outboundLayovers': outbound.get('layovers', []),
+                        'returnLayovers': option.get('layovers', []),
+                        'bookingToken': option.get('booking_token'),
+                        'checkedAt': now.isoformat()
                     })
-                output['offers'].sort(key=lambda x: x['priceTotal'])
-                output['status'] = 'completed' if output['offers'] else 'no_roundtrip_options'
+
+                output['offers'].sort(
+                    key=lambda x: x['priceTotal']
+                )
+
+                output['status'] = (
+                    'completed'
+                    if output['offers']
+                    else 'no_roundtrip_options'
+                )
+
                 if not output['offers']:
-                    output['errors'].append('Nenhum preço numérico de ida e volta na etapa de retorno.')
+                    output['errors'].append(
+                        'Nenhuma tarifa completa atendeu aos critérios '
+                        'de preço e duração máxima de 24h por trecho.'
+                    )
+
     except Exception as exc:
         output['status'] = 'error'
         output['errors'].append(str(exc)[:300])
