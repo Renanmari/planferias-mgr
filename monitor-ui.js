@@ -324,3 +324,339 @@ function createOffer(offer) {
       'Não foi possível carregar os resultados: ' + error.message;
   }
 })();
+
+/* planferias MGR — comparador inteligente de ofertas */
+(() => {
+  'use strict';
+
+  const area = document.getElementById('liveOffers');
+  if (!area) return;
+
+  const formatMoney = value =>
+    Number(value).toLocaleString('pt-BR', {
+      style: 'currency',
+      currency: 'BRL'
+    });
+
+  const formatMinutes = value => {
+    const h = Math.floor(value / 60);
+    const m = value % 60;
+    return `${h}h${String(m).padStart(2, '0')}`;
+  };
+
+  const parseTime = value => {
+    if (!value) return NaN;
+    return Date.parse(value.replace(' ', 'T'));
+  };
+
+  const tripMinutes = flights => {
+    if (!Array.isArray(flights) || !flights.length) {
+      return null;
+    }
+
+    const first = flights[0];
+    const last = flights[flights.length - 1];
+
+    const start = parseTime(first?.departure_airport?.time);
+    const end = parseTime(last?.arrival_airport?.time);
+
+    if (!Number.isFinite(start) || !Number.isFinite(end)) {
+      return null;
+    }
+
+    const minutes = Math.round((end - start) / 60000);
+    return minutes >= 0 ? minutes : null;
+  };
+
+  const longestConnection = flights => {
+    if (!Array.isArray(flights) || flights.length < 2) {
+      return 0;
+    }
+
+    let longest = 0;
+
+    for (let i = 0; i < flights.length - 1; i++) {
+      const arrival = parseTime(
+        flights[i]?.arrival_airport?.time
+      );
+      const departure = parseTime(
+        flights[i + 1]?.departure_airport?.time
+      );
+
+      if (!Number.isFinite(arrival) ||
+          !Number.isFinite(departure)) continue;
+
+      const minutes = Math.round(
+        (departure - arrival) / 60000
+      );
+
+      if (minutes >= 0) {
+        longest = Math.max(longest, minutes);
+      }
+    }
+
+    return longest;
+  };
+
+  const run = async () => {
+    try {
+      const response = await fetch(
+        './latest.json?t=' + Date.now(),
+        { cache: 'no-store' }
+      );
+
+      if (!response.ok) return;
+
+      const data = await response.json();
+
+      const offers = (data.offers || [])
+        .filter(o =>
+          o.roundTripConfirmed === true &&
+          o.priceType === 'roundtrip_selection' &&
+          Number(o.priceTotal) > 0
+        )
+        .sort((a, b) => a.priceTotal - b.priceTotal)
+        .slice(0, 20);
+
+      if (!offers.length) return;
+
+      const metrics = offers.map((offer, index) => {
+        const out = tripMinutes(offer.outboundFlights);
+        const back = tripMinutes(offer.returnFlights);
+
+        return {
+          offer,
+          index,
+          price: Number(offer.priceTotal),
+          duration:
+            out !== null && back !== null
+              ? out + back
+              : null,
+          connection: Math.max(
+            longestConnection(offer.outboundFlights),
+            longestConnection(offer.returnFlights)
+          )
+        };
+      });
+
+      const valid = metrics.filter(
+        m => m.duration !== null
+      );
+
+      const cheapest = metrics[0];
+
+      const fastest = valid.length
+        ? [...valid].sort(
+            (a, b) => a.duration - b.duration ||
+                      a.price - b.price
+          )[0]
+        : null;
+
+      const minPrice = Math.min(...metrics.map(m => m.price));
+      const maxPrice = Math.max(...metrics.map(m => m.price));
+
+      const minDuration = valid.length
+        ? Math.min(...valid.map(m => m.duration))
+        : null;
+
+      const maxDuration = valid.length
+        ? Math.max(...valid.map(m => m.duration))
+        : null;
+
+      // Peso igual para preço e duração.
+      const balanced = valid.length
+        ? [...valid].sort((a, b) => {
+            const score = m => {
+              const priceScore = maxPrice === minPrice
+                ? 0
+                : (m.price - minPrice) /
+                  (maxPrice - minPrice);
+
+              const durationScore =
+                maxDuration === minDuration
+                  ? 0
+                  : (m.duration - minDuration) /
+                    (maxDuration - minDuration);
+
+              return (priceScore + durationScore) / 2;
+            };
+
+            return score(a) - score(b) ||
+                   a.price - b.price;
+          })[0]
+        : null;
+
+      const summary = document.createElement('div');
+      summary.className = 'mgr-comparator';
+
+      summary.style.cssText = `
+        margin: 16px 0 22px;
+        padding: 18px;
+        background: #edf4ff;
+        border: 1px solid #cbdcf5;
+        border-radius: 14px;
+        color: #17365d;
+      `;
+
+      const heading = document.createElement('h3');
+      heading.textContent = 'Comparador inteligente';
+      heading.style.margin = '0 0 12px';
+
+      const info = document.createElement('p');
+      info.style.fontSize = '14px';
+      info.textContent =
+        'Classificação baseada nas ofertas da última consulta. ' +
+        'Duração considera ida e volta, incluindo conexões.';
+
+      const grid = document.createElement('div');
+      grid.style.cssText = `
+        display: grid;
+        grid-template-columns:
+          repeat(auto-fit, minmax(190px, 1fr));
+        gap: 12px;
+      `;
+
+      const makeCard = (label, metric, detail) => {
+        const card = document.createElement('div');
+        card.style.cssText = `
+          background: #ffffff;
+          border: 1px solid #d8e2ee;
+          border-radius: 11px;
+          padding: 14px;
+        `;
+
+        const title = document.createElement('strong');
+        title.textContent = label;
+        title.style.display = 'block';
+
+        const price = document.createElement('div');
+        price.textContent = metric
+          ? formatMoney(metric.price)
+          : 'Não disponível';
+
+        price.style.cssText = `
+          font-size: 21px;
+          font-weight: 800;
+          color: #15803d;
+          margin: 7px 0;
+        `;
+
+        const description = document.createElement('div');
+        description.textContent = detail;
+        description.style.fontSize = '13px';
+        description.style.color = '#475569';
+
+        card.append(title, price, description);
+        return card;
+      };
+
+      grid.append(
+        makeCard(
+          'Menor preço',
+          cheapest,
+          cheapest.duration !== null
+            ? 'Duração total: ' +
+              formatMinutes(cheapest.duration)
+            : 'Duração não informada'
+        ),
+        makeCard(
+          'Menor duração',
+          fastest,
+          fastest
+            ? 'Duração total: ' +
+              formatMinutes(fastest.duration)
+            : 'Duração não informada'
+        ),
+        makeCard(
+          'Melhor equilíbrio',
+          balanced,
+          balanced
+            ? 'Duração total: ' +
+              formatMinutes(balanced.duration)
+            : 'Duração não informada'
+        )
+      );
+
+      summary.append(heading, info, grid);
+
+      const existing = area.querySelector('.mgr-comparator');
+      if (existing) existing.remove();
+
+      area.prepend(summary);
+
+      const cards = [
+        ...area.querySelectorAll(':scope > .route')
+      ];
+
+      metrics.forEach(metric => {
+        const card = cards[metric.index];
+        if (!card) return;
+
+        const labels = [];
+
+        if (metric.index === cheapest.index) {
+          labels.push('Menor preço');
+        }
+
+        if (fastest && metric.index === fastest.index) {
+          labels.push('Menor duração');
+        }
+
+        if (balanced && metric.index === balanced.index) {
+          labels.push('Melhor equilíbrio');
+        }
+
+        if (metric.connection > 360) {
+          labels.push(
+            'Conexão longa: ' +
+            formatMinutes(metric.connection)
+          );
+        }
+
+        if (!labels.length) return;
+
+        const badge = document.createElement('div');
+        badge.textContent = labels.join(' · ');
+        badge.style.cssText = `
+          font-size: 13px;
+          font-weight: 700;
+          color: #1e40af;
+          background: #dbeafe;
+          border-radius: 8px;
+          padding: 8px 10px;
+          margin-bottom: 12px;
+        `;
+
+        if (metric.connection > 360) {
+          badge.style.background = '#fff3d6';
+          badge.style.color = '#92400e';
+        }
+
+        card.prepend(badge);
+      });
+
+    } catch (error) {
+      console.warn(
+        'Comparador indisponível:',
+        error.message
+      );
+    }
+  };
+
+  // Aguarda a renderização das ofertas existentes.
+  const observer = new MutationObserver(() => {
+    if (area.querySelector(':scope > .route')) {
+      observer.disconnect();
+      run();
+    }
+  });
+
+  observer.observe(area, {
+    childList: true
+  });
+
+  if (area.querySelector(':scope > .route')) {
+    observer.disconnect();
+    run();
+  }
+})();
