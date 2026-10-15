@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T21:28:58.922212+00:00",
+  "updated_at": "2026-10-15T09:32:24.694249+00:00",
   "source": "SerpApi / Google Flights",
   "status": "completed",
   "offers": [
@@ -8,8 +8,8 @@
       "origin": "GRU",
       "destination": "MCO",
       "depart": "2027-01-22",
-      "returnDate": "2027-02-07",
-      "priceTotal": 16003,
+      "returnDate": "2027-02-08",
+      "priceTotal": 15567,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -23,272 +23,54 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-22 10:15"
+            "time": "2027-01-22 21:45"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 16:40"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 05:30"
           },
-          "duration": 505,
-          "airplane": "Boeing 777",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "LA 8194",
+          "flight_number": "UA 148",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1023 kg"
-          ],
-          "plane_and_crew_by": "Latam Airlines Brasil"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 19:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 21:42"
-          },
-          "duration": 132,
-          "airplane": "Boeing 757",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-          "travel_class": "Economy",
-          "flight_number": "DL 1328",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 386 kg"
-          ],
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 23:05"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-23 00:36"
-          },
-          "duration": 91,
-          "airplane": "Airbus A321",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-          "travel_class": "Economy",
-          "flight_number": "DL 1562",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 238 kg"
-          ],
-          "often_delayed_by_over_30_min": true,
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-07 14:35"
-          },
-          "arrival_airport": {
-            "name": "El Dorado International Airport",
-            "id": "BOG",
-            "time": "2027-02-07 18:45"
-          },
-          "duration": 250,
-          "airplane": "Airbus A320",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
-          "travel_class": "Economy",
-          "flight_number": "LA 4407",
-          "legroom": "71 cm",
-          "extensions": [
-            "Below average legroom (71 cm)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 663 kg"
-          ],
-          "plane_and_crew_by": "Latam Airlines Colombia"
-        },
-        {
-          "departure_airport": {
-            "name": "El Dorado International Airport",
-            "id": "BOG",
-            "time": "2027-02-07 23:55"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-08 08:20"
-          },
-          "duration": 385,
-          "airplane": "Airbus A330",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
-          "travel_class": "Economy",
-          "flight_number": "LA 4907",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "In-seat USB outlet",
-            "On-demand video",
-            "Carbon emissions estimate: 1018 kg"
-          ],
-          "overnight": true,
-          "plane_and_crew_by": "Wamos for Latam Airlines Group"
-        }
-      ],
-      "outboundDuration": 981,
-      "returnDuration": 945,
-      "outboundLayovers": [
-        {
-          "duration": 170,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        },
-        {
-          "duration": 83,
-          "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-          "id": "ATL"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 310,
-          "name": "El Dorado International Airport",
-          "id": "BOG"
-        }
-      ],
-      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZzlNUVRRME1EZDhURUUwT1RBM0l6RWFDd2ptMVdFUUFob0RRbEpNT0J4d282MFQiLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkJPRyIsbnVsbCwiTEEiLCI0NDA3Il0sWyJCT0ciLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJMQSIsIjQ5MDciXV1d",
-      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-22",
-      "returnDate": "2027-02-07",
-      "priceTotal": 18235,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-22 10:15"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 16:40"
-          },
-          "duration": 505,
-          "airplane": "Boeing 777",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
-          "travel_class": "Economy",
-          "flight_number": "LA 8194",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1023 kg"
+            "Carbon emissions estimate: 1132 kg"
           ],
-          "plane_and_crew_by": "Latam Airlines Brasil"
+          "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 19:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 21:42"
-          },
-          "duration": 132,
-          "airplane": "Boeing 757",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-          "travel_class": "Economy",
-          "flight_number": "DL 1328",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 386 kg"
-          ],
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 23:05"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 14:21"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-23 00:36"
+            "time": "2027-01-23 17:22"
           },
-          "duration": 91,
-          "airplane": "Airbus A321",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 181,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 1562",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
           "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 238 kg"
-          ],
-          "often_delayed_by_over_30_min": true,
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 414 kg"
+          ]
         }
       ],
       "returnFlights": [
@@ -296,93 +78,82 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-07 15:45"
+            "time": "2027-02-08 17:28"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-02-07 17:22"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-08 19:42"
           },
-          "duration": 97,
-          "airplane": "Airbus A321",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 134,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 1576",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
+          "flight_number": "UA 692",
+          "legroom": "76 cm",
           "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 238 kg"
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 350 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-02-07 18:15"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-08 22:25"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-08 05:40"
+            "time": "2027-02-09 10:20"
           },
-          "duration": 565,
-          "airplane": "Airbus A330",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 105",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
+          "flight_number": "UA 861",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
-            "Free Wi-Fi",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1466 kg"
+            "Carbon emissions estimate: 1568 kg"
           ],
           "overnight": true
         }
       ],
-      "outboundDuration": 981,
-      "returnDuration": 715,
+      "outboundDuration": 1297,
+      "returnDuration": 892,
       "outboundLayovers": [
         {
-          "duration": 170,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        },
-        {
-          "duration": 83,
-          "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-          "id": "ATL"
+          "duration": 531,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
         }
       ],
       "returnLayovers": [
         {
-          "duration": 53,
-          "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-          "id": "ATL"
+          "duration": 163,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
         }
       ],
-      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZzVFVERFMU56WjhSRXd4TURVak1ob0xDSzZsYnhBQ0dnTkNVa3c0SEhEaWhoWT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkFUTCIsbnVsbCwiREwiLCIxNTc2Il0sWyJBVEwiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJETCIsIjEwNSJdXV0=",
-      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
+      "bookingToken": "WyJDalJJUkhsUlZrWXdlR1ZWVTFWQlJEUnVVRkZDUnkwdExTMHRMUzB0TFc5cllYRXhORUZCUVVGQlIzSlJibUV3UzNFd1ZWVkJFZzFWUVRZNU1ueFZRVGcyTVNNeUdnc0lsNEZmRUFJYUEwSlNURGdjY01YcEVnPT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJFV1IiLG51bGwsIlVBIiwiMTQ4Il0sWyJFV1IiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJVQSIsIjEyNjgiXV0sW1siTUNPIiwiMjAyNy0wMi0wOCIsIklBRCIsbnVsbCwiVUEiLCI2OTIiXSxbIklBRCIsIjIwMjctMDItMDgiLCJHUlUiLG51bGwsIlVBIiwiODYxIl1dXQ==",
+      "checkedAt": "2026-10-15T09:32:24.694249+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
       "depart": "2027-01-22",
-      "returnDate": "2027-02-07",
-      "priceTotal": 18235,
+      "returnDate": "2027-02-08",
+      "priceTotal": 15658,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -396,88 +167,54 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-22 10:15"
+            "time": "2027-01-22 21:45"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 16:40"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 05:30"
           },
-          "duration": 505,
-          "airplane": "Boeing 777",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "LA 8194",
+          "flight_number": "UA 148",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1023 kg"
+            "Carbon emissions estimate: 1132 kg"
           ],
-          "plane_and_crew_by": "Latam Airlines Brasil"
+          "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 19:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 21:42"
-          },
-          "duration": 132,
-          "airplane": "Boeing 757",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-          "travel_class": "Economy",
-          "flight_number": "DL 1328",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 386 kg"
-          ],
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 23:05"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 14:21"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-23 00:36"
+            "time": "2027-01-23 17:22"
           },
-          "duration": 91,
-          "airplane": "Airbus A321",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 181,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 1562",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
           "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 238 kg"
-          ],
-          "often_delayed_by_over_30_min": true,
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 414 kg"
+          ]
         }
       ],
       "returnFlights": [
@@ -485,94 +222,83 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-07 19:45"
+            "time": "2027-02-08 19:17"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-02-07 21:26"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-08 21:29"
           },
-          "duration": 101,
-          "airplane": "Airbus A321",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 132,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 1497",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
+          "flight_number": "UA 1997",
+          "legroom": "76 cm",
           "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 238 kg"
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 293 kg"
           ],
           "often_delayed_by_over_30_min": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-02-07 22:15"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-08 22:25"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-08 09:35"
+            "time": "2027-02-09 10:20"
           },
-          "duration": 560,
-          "airplane": "Airbus A330-900neo",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 269",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
+          "flight_number": "UA 861",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
-            "Free Wi-Fi",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1429 kg"
+            "Carbon emissions estimate: 1568 kg"
           ],
           "overnight": true
         }
       ],
-      "outboundDuration": 981,
-      "returnDuration": 710,
+      "outboundDuration": 1297,
+      "returnDuration": 783,
       "outboundLayovers": [
         {
-          "duration": 170,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        },
-        {
-          "duration": 83,
-          "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-          "id": "ATL"
+          "duration": 531,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
         }
       ],
       "returnLayovers": [
         {
-          "duration": 49,
-          "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-          "id": "ATL"
+          "duration": 56,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
         }
       ],
-      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZzVFVERFME9UZDhSRXd5Tmprak1ob0xDSzZsYnhBQ0dnTkNVa3c0SEhEaWhoWT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJNSUEiLG51bGwsIkxBIiwiODE5NCJdLFsiTUlBIiwiMjAyNy0wMS0yMiIsIkFUTCIsbnVsbCwiREwiLCIxMzI4Il0sWyJBVEwiLCIyMDI3LTAxLTIyIiwiTUNPIixudWxsLCJETCIsIjE1NjIiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIkFUTCIsbnVsbCwiREwiLCIxNDk3Il0sWyJBVEwiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJETCIsIjI2OSJdXV0=",
-      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
+      "bookingToken": "WyJDalJJUkhsUlZrWXdlR1ZWVTFWQlJEUnVVRkZDUnkwdExTMHRMUzB0TFc5cllYRXhORUZCUVVGQlIzSlJibUV3UzNFd1ZWVkJFZzVWUVRFNU9UZDhWVUU0TmpFak1ob0xDSkRJWHhBQ0dnTkNVa3c0SEhETTl4ST0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJFV1IiLG51bGwsIlVBIiwiMTQ4Il0sWyJFV1IiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJVQSIsIjEyNjgiXV0sW1siTUNPIiwiMjAyNy0wMi0wOCIsIklBRCIsbnVsbCwiVUEiLCIxOTk3Il0sWyJJQUQiLCIyMDI3LTAyLTA4IiwiR1JVIixudWxsLCJVQSIsIjg2MSJdXV0=",
+      "checkedAt": "2026-10-15T09:32:24.694249+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
       "depart": "2027-01-22",
-      "returnDate": "2027-02-07",
-      "priceTotal": 20767,
+      "returnDate": "2027-02-08",
+      "priceTotal": 17307,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -586,88 +312,54 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-22 10:15"
+            "time": "2027-01-22 21:45"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 16:40"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 05:30"
           },
-          "duration": 505,
-          "airplane": "Boeing 777",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "LA 8194",
+          "flight_number": "UA 148",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1023 kg"
+            "Carbon emissions estimate: 1132 kg"
           ],
-          "plane_and_crew_by": "Latam Airlines Brasil"
+          "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 19:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 21:42"
-          },
-          "duration": 132,
-          "airplane": "Boeing 757",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-          "travel_class": "Economy",
-          "flight_number": "DL 1328",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 386 kg"
-          ],
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 23:05"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 14:21"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-23 00:36"
+            "time": "2027-01-23 17:22"
           },
-          "duration": 91,
-          "airplane": "Airbus A321",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 181,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 1562",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
           "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 238 kg"
-          ],
-          "often_delayed_by_over_30_min": true,
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 414 kg"
+          ]
         }
       ],
       "returnFlights": [
@@ -675,58 +367,83 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-07 22:00"
+            "time": "2027-02-08 17:06"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Intercontinental George Bush",
+            "id": "IAH",
+            "time": "2027-02-08 18:59"
+          },
+          "duration": 173,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1872",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 391 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Intercontinental George Bush",
+            "id": "IAH",
+            "time": "2027-02-08 20:45"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-08 08:50"
+            "time": "2027-02-09 09:30"
           },
-          "duration": 530,
+          "duration": 585,
           "airplane": "Boeing 787",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "LA 8187",
-          "ticket_also_sold_by": [
-            "Delta"
-          ],
-          "legroom": "81 cm",
+          "flight_number": "UA 62",
+          "legroom": "79 cm",
           "extensions": [
-            "Above average legroom (81 cm)",
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1133 kg"
+            "Carbon emissions estimate: 1149 kg"
           ],
           "overnight": true,
-          "plane_and_crew_by": "Latam Airlines Brasil"
+          "often_delayed_by_over_30_min": true
         }
       ],
-      "outboundDuration": 981,
-      "returnDuration": 530,
+      "outboundDuration": 1297,
+      "returnDuration": 864,
       "outboundLayovers": [
         {
-          "duration": 170,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        },
-        {
-          "duration": 83,
-          "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-          "id": "ATL"
+          "duration": 531,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
         }
       ],
-      "returnLayovers": [],
-      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZ2hNUVRneE9EY2pNUm9MQ09MZmZoQUNHZ05DVWt3NEhIRGxqaGs9IixbWyJHUlUiLCIyMDI3LTAxLTIyIiwiTUlBIixudWxsLCJMQSIsIjgxOTQiXSxbIk1JQSIsIjIwMjctMDEtMjIiLCJBVEwiLG51bGwsIkRMIiwiMTMyOCJdLFsiQVRMIiwiMjAyNy0wMS0yMiIsIk1DTyIsbnVsbCwiREwiLCIxNTYyIl1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIkxBIiwiODE4NyJdXV0=",
-      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
+      "returnLayovers": [
+        {
+          "duration": 106,
+          "name": "Aeroporto Intercontinental George Bush",
+          "id": "IAH"
+        }
+      ],
+      "bookingToken": "WyJDalJJUkhsUlZrWXdlR1ZWVTFWQlJEUnVVRkZDUnkwdExTMHRMUzB0TFc5cllYRXhORUZCUVVGQlIzSlJibUV3UzNFd1ZWVkJFZzFWUVRFNE56SjhWVUUyTWlNeUdnc0kzOUJwRUFJYUEwSlNURGdjY1BYMkZBPT0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJFV1IiLG51bGwsIlVBIiwiMTQ4Il0sWyJFV1IiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJVQSIsIjEyNjgiXV0sW1siTUNPIiwiMjAyNy0wMi0wOCIsIklBSCIsbnVsbCwiVUEiLCIxODcyIl0sWyJJQUgiLCIyMDI3LTAyLTA4IiwiR1JVIixudWxsLCJVQSIsIjYyIl1dXQ==",
+      "checkedAt": "2026-10-15T09:32:24.694249+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
       "depart": "2027-01-22",
-      "returnDate": "2027-02-07",
-      "priceTotal": 21774,
+      "returnDate": "2027-02-08",
+      "priceTotal": 34824,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -740,88 +457,54 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-22 10:15"
+            "time": "2027-01-22 21:45"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 16:40"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 05:30"
           },
-          "duration": 505,
-          "airplane": "Boeing 777",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "LA 8194",
+          "flight_number": "UA 148",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1023 kg"
+            "Carbon emissions estimate: 1132 kg"
           ],
-          "plane_and_crew_by": "Latam Airlines Brasil"
+          "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-22 19:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 21:42"
-          },
-          "duration": 132,
-          "airplane": "Boeing 757",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-          "travel_class": "Economy",
-          "flight_number": "DL 1328",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 386 kg"
-          ],
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-            "id": "ATL",
-            "time": "2027-01-22 23:05"
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-23 14:21"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-23 00:36"
+            "time": "2027-01-23 17:22"
           },
-          "duration": 91,
-          "airplane": "Airbus A321",
-          "airline": "Delta",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "duration": 181,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "DL 1562",
-          "ticket_also_sold_by": [
-            "LATAM"
-          ],
-          "legroom": "79 cm",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
           "extensions": [
-            "Average legroom (79 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Live TV",
-            "Carbon emissions estimate: 238 kg"
-          ],
-          "often_delayed_by_over_30_min": true,
-          "plane_and_crew_by": "Delta Airlines for Latam Airlines Group"
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 414 kg"
+          ]
         }
       ],
       "returnFlights": [
@@ -829,50 +512,72 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-07 18:05"
+            "time": "2027-02-08 14:26"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Tocumen",
+            "id": "PTY",
+            "time": "2027-02-08 17:53"
+          },
+          "duration": 207,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "COPA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+          "travel_class": "Economy",
+          "flight_number": "CM 868",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 472 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Tocumen",
+            "id": "PTY",
+            "time": "2027-02-08 18:37"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-08 05:00"
+            "time": "2027-02-09 03:35"
           },
-          "duration": 535,
-          "airplane": "Boeing 787",
-          "airline": "LATAM",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "duration": 418,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "COPA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
           "travel_class": "Economy",
-          "flight_number": "LA 8127",
-          "ticket_also_sold_by": [
-            "Delta"
-          ],
-          "legroom": "81 cm",
+          "flight_number": "CM 810",
+          "legroom": "76 cm",
           "extensions": [
-            "Above average legroom (81 cm)",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1133 kg"
+            "Average legroom (76 cm)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 1089 kg"
           ],
-          "overnight": true,
-          "plane_and_crew_by": "Latam Airlines Brasil"
+          "overnight": true
         }
       ],
-      "outboundDuration": 981,
-      "returnDuration": 535,
+      "outboundDuration": 1297,
+      "returnDuration": 669,
       "outboundLayovers": [
         {
-          "duration": 170,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        },
-        {
-          "duration": 83,
-          "name": "Aeroporto Internacional de Atlanta Hartsfield-Jackson",
-          "id": "ATL"
+          "duration": 531,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
         }
       ],
-      "returnLayovers": [],
-      "bookingToken": "WyJDalJJUm05eVprSkxOV0YxVjNkQlFYTk9OMUZDUnkwdExTMHRMUzB0ZVdsaWEzSXhPRUZCUVVGQlIzSlFPVU5KU0VGV1ZFZEJFZ2hNUVRneE1qY2pNUm9NQ0xueWhBRVFBaG9EUWxKTU9CeHcxcW9hIixbWyJHUlUiLCIyMDI3LTAxLTIyIiwiTUlBIixudWxsLCJMQSIsIjgxOTQiXSxbIk1JQSIsIjIwMjctMDEtMjIiLCJBVEwiLG51bGwsIkRMIiwiMTMyOCJdLFsiQVRMIiwiMjAyNy0wMS0yMiIsIk1DTyIsbnVsbCwiREwiLCIxNTYyIl1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIkxBIiwiODEyNyJdXV0=",
-      "checkedAt": "2026-10-14T21:28:58.922212+00:00"
+      "returnLayovers": [
+        {
+          "duration": 44,
+          "name": "Aeroporto Internacional Tocumen",
+          "id": "PTY"
+        }
+      ],
+      "bookingToken": "WyJDalJJUkhsUlZrWXdlR1ZWVTFWQlJEUnVVRkZDUnkwdExTMHRMUzB0TFc5cllYRXhORUZCUVVGQlIzSlJibUV3UzNFd1ZWVkJFZzFEVFRnMk9IeERUVGd4TUNNeEdnd0k1Y1hVQVJBQ0dnTkNVa3c0SEhDeGppbz0iLFtbIkdSVSIsIjIwMjctMDEtMjIiLCJFV1IiLG51bGwsIlVBIiwiMTQ4Il0sWyJFV1IiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJVQSIsIjEyNjgiXV0sW1siTUNPIiwiMjAyNy0wMi0wOCIsIlBUWSIsbnVsbCwiQ00iLCI4NjgiXSxbIlBUWSIsIjIwMjctMDItMDgiLCJHUlUiLG51bGwsIkNNIiwiODEwIl1dXQ==",
+      "checkedAt": "2026-10-15T09:32:24.694249+00:00"
     }
   ],
   "errors": [],
@@ -882,7 +587,7 @@
     "origin": "GRU",
     "destination": "MCO",
     "depart": "2027-01-22",
-    "returnDate": "2027-02-07",
+    "returnDate": "2027-02-08",
     "adults": 2,
     "children": 1
   }
