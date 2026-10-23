@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:32:10.805941+00:00",
+  "updated_at": "2026-10-23T21:28:47.655245+00:00",
   "source": "SerpApi / Google Flights",
   "status": "completed",
   "offers": [
@@ -7,9 +7,9 @@
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 15895,
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 11891,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -23,51 +23,79 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-23 03:10"
+            "time": "2027-01-24 22:25"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 08:00"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
           },
-          "duration": 410,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "CM 702",
-          "legroom": "76 cm",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
           "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1042 kg"
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
           ],
           "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 09:10"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 08:37"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 10:00"
+          },
+          "duration": 83,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 738",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 204 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 14:21"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-23 12:41"
+            "time": "2027-01-25 17:22"
           },
-          "duration": 211,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+          "duration": 181,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "CM 867",
+          "flight_number": "UA 1268",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
-            "In-seat USB outlet",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 454 kg"
+            "Carbon emissions estimate: 346 kg"
           ]
         }
       ],
@@ -76,12 +104,713 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-09 14:26"
+            "time": "2027-02-07 09:30"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 11:44"
+          },
+          "duration": 134,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1893",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 350 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 10:20"
+          },
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 861",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1568 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1257,
+      "returnDuration": 1370,
+      "outboundLayovers": [
+        {
+          "duration": 127,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        },
+        {
+          "duration": 261,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 641,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "bookingToken": "WyJDalJJWlZkTE9WUjVZakpNWDFWQlJqWTFkbmRDUnkwdExTMHRMUzEyZDNreU1TMXVNa0ZCUVVGQlIzSmlNRnBuVG5aaldFOUJFZzVWUVRFNE9UTjhWVUU0TmpFak1Sb0xDT0hKU0JBQ0dnTkNVa3c0SEhDN3lnND0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiRVdSIixudWxsLCJVQSIsIjczOCJdLFsiRVdSIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiVUEiLCIxMjY4Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJJQUQiLG51bGwsIlVBIiwiMTg5MyJdLFsiSUFEIiwiMjAyNy0wMi0wNyIsIkdSVSIsbnVsbCwiVUEiLCI4NjEiXV1d",
+      "checkedAt": "2026-10-23T21:28:47.655245+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 12179,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
+          },
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 08:37"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 10:00"
+          },
+          "duration": 83,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 738",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 204 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 14:21"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 17:22"
+          },
+          "duration": 181,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 346 kg"
+          ]
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 17:28"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 19:42"
+          },
+          "duration": 134,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 692",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 350 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 10:20"
+          },
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 861",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1568 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1257,
+      "returnDuration": 892,
+      "outboundLayovers": [
+        {
+          "duration": 127,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        },
+        {
+          "duration": 261,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 163,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "bookingToken": "WyJDalJJWlZkTE9WUjVZakpNWDFWQlJqWTFkbmRDUnkwdExTMHRMUzEyZDNreU1TMXVNa0ZCUVVGQlIzSmlNRnBuVG5aaldFOUJFZzFWUVRZNU1ueFZRVGcyTVNNeUdnc0lrS3BLRUFJYUEwSlNURGdjY01iM0RnPT0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiRVdSIixudWxsLCJVQSIsIjczOCJdLFsiRVdSIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiVUEiLCIxMjY4Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJJQUQiLG51bGwsIlVBIiwiNjkyIl0sWyJJQUQiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJVQSIsIjg2MSJdXV0=",
+      "checkedAt": "2026-10-23T21:28:47.655245+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 12587,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
+          },
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 08:37"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 10:00"
+          },
+          "duration": 83,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 738",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 204 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 14:21"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 17:22"
+          },
+          "duration": 181,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 346 kg"
+          ]
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 19:17"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 21:29"
+          },
+          "duration": 132,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1997",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 293 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 10:20"
+          },
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 861",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1568 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1257,
+      "returnDuration": 783,
+      "outboundLayovers": [
+        {
+          "duration": 127,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        },
+        {
+          "duration": 261,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 56,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "bookingToken": "WyJDalJJWlZkTE9WUjVZakpNWDFWQlJqWTFkbmRDUnkwdExTMHRMUzEyZDNreU1TMXVNa0ZCUVVGQlIzSmlNRnBuVG5aaldFOUJFZzVWUVRFNU9UZDhWVUU0TmpFak1Sb0xDUG5vVEJBQ0dnTkNVa3c0SEhETnR3OD0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiRVdSIixudWxsLCJVQSIsIjczOCJdLFsiRVdSIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiVUEiLCIxMjY4Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJJQUQiLG51bGwsIlVBIiwiMTk5NyJdLFsiSUFEIiwiMjAyNy0wMi0wNyIsIkdSVSIsbnVsbCwiVUEiLCI4NjEiXV1d",
+      "checkedAt": "2026-10-23T21:28:47.655245+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 13569,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
+          },
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 08:37"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 10:00"
+          },
+          "duration": 83,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 738",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 204 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 14:21"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 17:22"
+          },
+          "duration": 181,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 346 kg"
+          ]
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 17:06"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Intercontinental George Bush",
+            "id": "IAH",
+            "time": "2027-02-07 18:59"
+          },
+          "duration": 173,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1872",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 391 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Intercontinental George Bush",
+            "id": "IAH",
+            "time": "2027-02-07 20:45"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 09:30"
+          },
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 62",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1149 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "outboundDuration": 1257,
+      "returnDuration": 864,
+      "outboundLayovers": [
+        {
+          "duration": 127,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        },
+        {
+          "duration": 261,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 106,
+          "name": "Aeroporto Intercontinental George Bush",
+          "id": "IAH"
+        }
+      ],
+      "bookingToken": "WyJDalJJWlZkTE9WUjVZakpNWDFWQlJqWTFkbmRDUnkwdExTMHRMUzEyZDNreU1TMXVNa0ZCUVVGQlIzSmlNRnBuVG5aaldFOUJFZzFWUVRFNE56SjhWVUUyTWlNeUdnc0l3T2hTRUFJYUEwSlNURGdjY09qUkVBPT0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiRVdSIixudWxsLCJVQSIsIjczOCJdLFsiRVdSIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiVUEiLCIxMjY4Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJJQUgiLG51bGwsIlVBIiwiMTg3MiJdLFsiSUFIIiwiMjAyNy0wMi0wNyIsIkdSVSIsbnVsbCwiVUEiLCI2MiJdXV0=",
+      "checkedAt": "2026-10-23T21:28:47.655245+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 33323,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
+          },
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 08:37"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 10:00"
+          },
+          "duration": 83,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 738",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 204 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Newark",
+            "id": "EWR",
+            "time": "2027-01-25 14:21"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 17:22"
+          },
+          "duration": 181,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1268",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 346 kg"
+          ]
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 14:26"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional Tocumen",
             "id": "PTY",
-            "time": "2027-02-09 17:53"
+            "time": "2027-02-07 17:53"
           },
           "duration": 207,
           "airplane": "Boeing 737",
@@ -100,12 +829,12 @@
           "departure_airport": {
             "name": "Aeroporto Internacional Tocumen",
             "id": "PTY",
-            "time": "2027-02-09 18:37"
+            "time": "2027-02-07 18:37"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-10 03:35"
+            "time": "2027-02-08 03:35"
           },
           "duration": 418,
           "airplane": "Boeing 737MAX 9 Passenger",
@@ -123,13 +852,18 @@
           "overnight": true
         }
       ],
-      "outboundDuration": 691,
+      "outboundDuration": 1257,
       "returnDuration": 669,
       "outboundLayovers": [
         {
-          "duration": 70,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
+          "duration": 127,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        },
+        {
+          "duration": 261,
+          "name": "Aeroporto Internacional de Newark",
+          "id": "EWR"
         }
       ],
       "returnLayovers": [
@@ -139,710 +873,8 @@
           "id": "PTY"
         }
       ],
-      "bookingToken": "WyJDalJJUnpScWNIRnBabHBZV210QlJFWXpYMEZDUnkwdExTMHRMUzB0TFhaM1lXWXhOVUZCUVVGQlIzSmlTMW80UzFselMxVkJFZzFEVFRnMk9IeERUVGd4TUNNeUdnc0k2SUZoRUFJYUEwSlNURGdjY0pLY0V3PT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJQVFkiLG51bGwsIkNNIiwiNzAyIl0sWyJQVFkiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJDTSIsIjg2NyJdXSxbWyJNQ08iLCIyMDI3LTAyLTA5IiwiUFRZIixudWxsLCJDTSIsIjg2OCJdLFsiUFRZIiwiMjAyNy0wMi0wOSIsIkdSVSIsbnVsbCwiQ00iLCI4MTAiXV1d",
-      "checkedAt": "2026-10-23T09:32:10.805941+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 15895,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 03:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 08:00"
-          },
-          "duration": 410,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 702",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1042 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 09:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-23 12:41"
-          },
-          "duration": 211,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 867",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 454 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 07:06"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-02-09 10:33"
-          },
-          "duration": 207,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 435",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 481 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-02-09 11:54"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-09 20:50"
-          },
-          "duration": 416,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 701",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1052 kg"
-          ]
-        }
-      ],
-      "outboundDuration": 691,
-      "returnDuration": 704,
-      "outboundLayovers": [
-        {
-          "duration": 70,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 81,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "bookingToken": "WyJDalJJUnpScWNIRnBabHBZV210QlJFWXpYMEZDUnkwdExTMHRMUzB0TFhaM1lXWXhOVUZCUVVGQlIzSmlTMW80UzFselMxVkJFZzFEVFRRek5YeERUVGN3TVNNeUdnc0k2SUZoRUFJYUEwSlNURGdjY0pLY0V3PT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJQVFkiLG51bGwsIkNNIiwiNzAyIl0sWyJQVFkiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJDTSIsIjg2NyJdXSxbWyJNQ08iLCIyMDI3LTAyLTA5IiwiUFRZIixudWxsLCJDTSIsIjQzNSJdLFsiUFRZIiwiMjAyNy0wMi0wOSIsIkdSVSIsbnVsbCwiQ00iLCI3MDEiXV1d",
-      "checkedAt": "2026-10-23T09:32:10.805941+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 15895,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 03:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 08:00"
-          },
-          "duration": 410,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 702",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1042 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 09:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-23 12:41"
-          },
-          "duration": 211,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 867",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 454 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 10:52"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-02-09 14:22"
-          },
-          "duration": 210,
-          "airplane": "Boeing 737",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 239",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "In-seat USB outlet",
-            "Carbon emissions estimate: 556 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-02-09 15:12"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 00:10"
-          },
-          "duration": 418,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 725",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1052 kg"
-          ]
-        }
-      ],
-      "outboundDuration": 691,
-      "returnDuration": 678,
-      "outboundLayovers": [
-        {
-          "duration": 70,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 50,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "bookingToken": "WyJDalJJUnpScWNIRnBabHBZV210QlJFWXpYMEZDUnkwdExTMHRMUzB0TFhaM1lXWXhOVUZCUVVGQlIzSmlTMW80UzFselMxVkJFZzFEVFRJek9YeERUVGN5TlNNeUdnc0k2SUZoRUFJYUEwSlNURGdjY0pLY0V3PT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJQVFkiLG51bGwsIkNNIiwiNzAyIl0sWyJQVFkiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJDTSIsIjg2NyJdXSxbWyJNQ08iLCIyMDI3LTAyLTA5IiwiUFRZIixudWxsLCJDTSIsIjIzOSJdLFsiUFRZIiwiMjAyNy0wMi0wOSIsIkdSVSIsbnVsbCwiQ00iLCI3MjUiXV1d",
-      "checkedAt": "2026-10-23T09:32:10.805941+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 15895,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 03:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 08:00"
-          },
-          "duration": 410,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 702",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1042 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 09:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-23 12:41"
-          },
-          "duration": 211,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 867",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 454 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 16:58"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-02-09 20:27"
-          },
-          "duration": 209,
-          "airplane": "Boeing 737",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 445",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "In-seat USB outlet",
-            "Carbon emissions estimate: 556 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-02-09 21:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 06:30"
-          },
-          "duration": 420,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 759",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1089 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "outboundDuration": 691,
-      "returnDuration": 692,
-      "outboundLayovers": [
-        {
-          "duration": 70,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 63,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "bookingToken": "WyJDalJJUnpScWNIRnBabHBZV210QlJFWXpYMEZDUnkwdExTMHRMUzB0TFhaM1lXWXhOVUZCUVVGQlIzSmlTMW80UzFselMxVkJFZzFEVFRRME5YeERUVGMxT1NNeUdnc0k2SUZoRUFJYUEwSlNURGdjY0pLY0V3PT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJQVFkiLG51bGwsIkNNIiwiNzAyIl0sWyJQVFkiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJDTSIsIjg2NyJdXSxbWyJNQ08iLCIyMDI3LTAyLTA5IiwiUFRZIixudWxsLCJDTSIsIjQ0NSJdLFsiUFRZIiwiMjAyNy0wMi0wOSIsIkdSVSIsbnVsbCwiQ00iLCI3NTkiXV1d",
-      "checkedAt": "2026-10-23T09:32:10.805941+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 34188,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 03:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 08:00"
-          },
-          "duration": 410,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 702",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1042 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 09:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-23 12:41"
-          },
-          "duration": 211,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 867",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 454 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 14:06"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional O'Hare",
-            "id": "ORD",
-            "time": "2027-02-09 16:20"
-          },
-          "duration": 194,
-          "airplane": "Airbus A321neo",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 2481",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 386 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional O'Hare",
-            "id": "ORD",
-            "time": "2027-02-09 17:50"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 07:15"
-          },
-          "duration": 625,
-          "airplane": "Boeing 787-10",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 845",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1186 kg"
-          ],
-          "overnight": true,
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "outboundDuration": 691,
-      "returnDuration": 909,
-      "outboundLayovers": [
-        {
-          "duration": 70,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 90,
-          "name": "Aeroporto Internacional O'Hare",
-          "id": "ORD"
-        }
-      ],
-      "bookingToken": "WyJDalJJUnpScWNIRnBabHBZV210QlJFWXpYMEZDUnkwdExTMHRMUzB0TFhaM1lXWXhOVUZCUVVGQlIzSmlTMW80UzFselMxVkJFZzVWUVRJME9ERjhWVUU0TkRVak1Sb01DSWpWMEFFUUFob0RRbEpNT0J4d3VLc3AiLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJQVFkiLG51bGwsIkNNIiwiNzAyIl0sWyJQVFkiLCIyMDI3LTAxLTIzIiwiTUNPIixudWxsLCJDTSIsIjg2NyJdXSxbWyJNQ08iLCIyMDI3LTAyLTA5IiwiT1JEIixudWxsLCJVQSIsIjI0ODEiXSxbIk9SRCIsIjIwMjctMDItMDkiLCJHUlUiLG51bGwsIlVBIiwiODQ1Il1dXQ==",
-      "checkedAt": "2026-10-23T09:32:10.805941+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 88095,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 03:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 08:00"
-          },
-          "duration": 410,
-          "airplane": "Boeing 737MAX 9 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 702",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 1042 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Tocumen",
-            "id": "PTY",
-            "time": "2027-01-23 09:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-23 12:41"
-          },
-          "duration": 211,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "COPA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-          "travel_class": "Economy",
-          "flight_number": "CM 867",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 454 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 14:10"
-          },
-          "arrival_airport": {
-            "name": "El Dorado International Airport",
-            "id": "BOG",
-            "time": "2027-02-09 18:15"
-          },
-          "duration": 245,
-          "airplane": "Airbus A320neo",
-          "airline": "Avianca",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
-          "travel_class": "Business Class",
-          "flight_number": "AV 29",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "84 cm",
-          "extensions": [
-            "Average legroom (84 cm)",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 816 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "El Dorado International Airport",
-            "id": "BOG",
-            "time": "2027-02-09 21:45"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 06:05"
-          },
-          "duration": 380,
-          "airplane": "Boeing 787",
-          "airline": "Avianca",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
-          "travel_class": "Economy",
-          "flight_number": "AV 85",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1015 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "outboundDuration": 691,
-      "returnDuration": 835,
-      "outboundLayovers": [
-        {
-          "duration": 70,
-          "name": "Aeroporto Internacional Tocumen",
-          "id": "PTY"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 210,
-          "name": "El Dorado International Airport",
-          "id": "BOG"
-        }
-      ],
-      "bookingToken": "WyJDalJJUnpScWNIRnBabHBZV210QlJFWXpYMEZDUnkwdExTMHRMUzB0TFhaM1lXWXhOVUZCUVVGQlIzSmlTMW80UzFselMxVkJFZ2xCVmpJNWZFRldPRFVhREFpUjJKa0VFQUlhQTBKU1REZ2NjSVBEYWc9PSIsW1siR1JVIiwiMjAyNy0wMS0yMyIsIlBUWSIsbnVsbCwiQ00iLCI3MDIiXSxbIlBUWSIsIjIwMjctMDEtMjMiLCJNQ08iLG51bGwsIkNNIiwiODY3Il1dLFtbIk1DTyIsIjIwMjctMDItMDkiLCJCT0ciLG51bGwsIkFWIiwiMjkiXSxbIkJPRyIsIjIwMjctMDItMDkiLCJHUlUiLG51bGwsIkFWIiwiODUiXV1d",
-      "checkedAt": "2026-10-23T09:32:10.805941+00:00"
+      "bookingToken": "WyJDalJJWlZkTE9WUjVZakpNWDFWQlJqWTFkbmRDUnkwdExTMHRMUzEyZDNreU1TMXVNa0ZCUVVGQlIzSmlNRnBuVG5aaldFOUJFZzFEVFRnMk9IeERUVGd4TUNNeEdnd0luTEhMQVJBQ0dnTkNVa3c0SEhEQTdpZz0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiRVdSIixudWxsLCJVQSIsIjczOCJdLFsiRVdSIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiVUEiLCIxMjY4Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJQVFkiLG51bGwsIkNNIiwiODY4Il0sWyJQVFkiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJDTSIsIjgxMCJdXV0=",
+      "checkedAt": "2026-10-23T21:28:47.655245+00:00"
     }
   ],
   "errors": [],
@@ -851,8 +883,8 @@
   "query": {
     "origin": "GRU",
     "destination": "MCO",
-    "depart": "2027-01-23",
-    "returnDate": "2027-02-09",
+    "depart": "2027-01-24",
+    "returnDate": "2027-02-07",
     "adults": 2,
     "children": 1
   }
