@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T09:46:42.125894+00:00",
+  "updated_at": "2026-10-29T21:37:53.961239+00:00",
   "source": "SerpApi / Google Flights",
   "status": "completed",
   "offers": [
@@ -7,9 +7,9 @@
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 15128,
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 13910,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -23,662 +23,53 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-23 22:35"
+            "time": "2027-01-24 22:25"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 05:05"
-          },
-          "duration": 510,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 958",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1122 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 07:42"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-24 08:54"
-          },
-          "duration": 72,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2473",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 175 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 06:00"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Charlotte/Douglas",
-            "id": "CLT",
-            "time": "2027-02-09 07:50"
-          },
-          "duration": 110,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 1896",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 274 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Charlotte/Douglas",
-            "id": "CLT",
-            "time": "2027-02-09 16:40"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 18:54"
-          },
-          "duration": 134,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 1114",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 324 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 19:45"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 06:20"
-          },
-          "duration": 515,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 929",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1303 kg"
-          ],
-          "overnight": true,
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "outboundDuration": 739,
-      "returnDuration": 1340,
-      "outboundLayovers": [
-        {
-          "duration": 157,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 530,
-          "name": "Aeroporto Internacional de Charlotte/Douglas",
-          "id": "CLT"
-        },
-        {
-          "duration": 51,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "bookingToken": "WyJDalJJU0hWRFMzVjBWSGRZUW1kQlF6UTFVSGRDUnkwdExTMHRMUzB0TFhaMGJtY3hPRUZCUVVGQlIzSnFSbWRqVEVzeGIydEJFaFZCUVRFNE9UWjhRVUV4TVRFMGZFRkJPVEk1SXpFYUN3aWlxbHdRQWhvRFFsSk1PQnh3cDZJUiIsW1siR1JVIiwiMjAyNy0wMS0yMyIsIk1JQSIsbnVsbCwiQUEiLCI5NTgiXSxbIk1JQSIsIjIwMjctMDEtMjQiLCJNQ08iLG51bGwsIkFBIiwiMjQ3MyJdXSxbWyJNQ08iLCIyMDI3LTAyLTA5IiwiQ0xUIixudWxsLCJBQSIsIjE4OTYiXSxbIkNMVCIsIjIwMjctMDItMDkiLCJNSUEiLG51bGwsIkFBIiwiMTExNCJdLFsiTUlBIiwiMjAyNy0wMi0wOSIsIkdSVSIsbnVsbCwiQUEiLCI5MjkiXV1d",
-      "checkedAt": "2026-10-29T09:46:42.125894+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 15128,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 22:35"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 05:05"
-          },
-          "duration": 510,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 958",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1122 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 07:42"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-24 08:54"
-          },
-          "duration": 72,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2473",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 175 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 11:56"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 13:10"
-          },
-          "duration": 74,
-          "airplane": "Boeing 737",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2468",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 169 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 22:50"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 09:25"
-          },
-          "duration": 515,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 925",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1251 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "outboundDuration": 739,
-      "returnDuration": 1169,
-      "outboundLayovers": [
-        {
-          "duration": 157,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 580,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "bookingToken": "WyJDalJJU0hWRFMzVjBWSGRZUW1kQlF6UTFVSGRDUnkwdExTMHRMUzB0TFhaMGJtY3hPRUZCUVVGQlIzSnFSbWRqVEVzeGIydEJFZzVCUVRJME5qaDhRVUU1TWpVak1Sb0xDS0txWEJBQ0dnTkNVa3c0SEhDbm9oRT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJNSUEiLG51bGwsIkFBIiwiOTU4Il0sWyJNSUEiLCIyMDI3LTAxLTI0IiwiTUNPIixudWxsLCJBQSIsIjI0NzMiXV0sW1siTUNPIiwiMjAyNy0wMi0wOSIsIk1JQSIsbnVsbCwiQUEiLCIyNDY4Il0sWyJNSUEiLCIyMDI3LTAyLTA5IiwiR1JVIixudWxsLCJBQSIsIjkyNSJdXV0=",
-      "checkedAt": "2026-10-29T09:46:42.125894+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 15464,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 22:35"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 05:05"
-          },
-          "duration": 510,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 958",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1122 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 07:42"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-24 08:54"
-          },
-          "duration": 72,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2473",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 175 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 16:26"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Dallas/Fort Worth",
-            "id": "DFW",
-            "time": "2027-02-09 18:42"
-          },
-          "duration": 196,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 1443",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 454 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Dallas/Fort Worth",
-            "id": "DFW",
-            "time": "2027-02-09 19:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 08:35"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
           },
           "duration": 605,
-          "airplane": "Boeing 787",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "AA 963",
+          "flight_number": "UA 860",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
             "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1305 kg"
-          ],
-          "overnight": true,
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "outboundDuration": 739,
-      "returnDuration": 849,
-      "outboundLayovers": [
-        {
-          "duration": 157,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 48,
-          "name": "Aeroporto Internacional de Dallas/Fort Worth",
-          "id": "DFW"
-        }
-      ],
-      "bookingToken": "WyJDalJJU0hWRFMzVjBWSGRZUW1kQlF6UTFVSGRDUnkwdExTMHRMUzB0TFhaMGJtY3hPRUZCUVVGQlIzSnFSbWRqVEVzeGIydEJFZzVCUVRFME5ETjhRVUU1TmpNak1Sb0xDSml4WGhBQ0dnTkNVa3c0SEhDOTB4RT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJNSUEiLG51bGwsIkFBIiwiOTU4Il0sWyJNSUEiLCIyMDI3LTAxLTI0IiwiTUNPIixudWxsLCJBQSIsIjI0NzMiXV0sW1siTUNPIiwiMjAyNy0wMi0wOSIsIkRGVyIsbnVsbCwiQUEiLCIxNDQzIl0sWyJERlciLCIyMDI3LTAyLTA5IiwiR1JVIixudWxsLCJBQSIsIjk2MyJdXV0=",
-      "checkedAt": "2026-10-29T09:46:42.125894+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 16170,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 22:35"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 05:05"
-          },
-          "duration": 510,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 958",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1122 kg"
+            "Carbon emissions estimate: 1506 kg"
           ],
           "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 07:42"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 15:15"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-24 08:54"
+            "time": "2027-01-25 17:47"
           },
-          "duration": 72,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "duration": 152,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "AA 2473",
+          "flight_number": "UA 1101",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 175 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 18:40"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 20:02"
-          },
-          "duration": 82,
-          "airplane": "Airbus A319",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2872",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
+            "Wi-Fi for a fee",
             "In-seat power outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 206 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 22:50"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 09:25"
-          },
-          "duration": 515,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 925",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1251 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "outboundDuration": 739,
-      "returnDuration": 765,
-      "outboundLayovers": [
-        {
-          "duration": 157,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 168,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "bookingToken": "WyJDalJJU0hWRFMzVjBWSGRZUW1kQlF6UTFVSGRDUnkwdExTMHRMUzB0TFhaMGJtY3hPRUZCUVVGQlIzSnFSbWRqVEVzeGIydEJFZzVCUVRJNE56SjhRVUU1TWpVak1Sb0xDSXZZWWhBQ0dnTkNVa3c0SEhEQnVoST0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJNSUEiLG51bGwsIkFBIiwiOTU4Il0sWyJNSUEiLCIyMDI3LTAxLTI0IiwiTUNPIixudWxsLCJBQSIsIjI0NzMiXV0sW1siTUNPIiwiMjAyNy0wMi0wOSIsIk1JQSIsbnVsbCwiQUEiLCIyODcyIl0sWyJNSUEiLCIyMDI3LTAyLTA5IiwiR1JVIixudWxsLCJBQSIsIjkyNSJdXV0=",
-      "checkedAt": "2026-10-29T09:46:42.125894+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 17532,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 22:35"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 05:05"
-          },
-          "duration": 510,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 958",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1122 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 07:42"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-24 08:54"
-          },
-          "duration": 72,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2473",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 175 kg"
+            "Carbon emissions estimate: 300 kg"
           ]
         }
       ],
@@ -687,218 +78,503 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-09 18:40"
+            "time": "2027-02-07 09:30"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 20:02"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 11:44"
           },
-          "duration": 82,
-          "airplane": "Airbus A319",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2872",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 206 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 21:00"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 07:35"
-          },
-          "duration": 515,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 995",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1251 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "outboundDuration": 739,
-      "returnDuration": 655,
-      "outboundLayovers": [
-        {
-          "duration": 157,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 58,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
-        }
-      ],
-      "bookingToken": "WyJDalJJU0hWRFMzVjBWSGRZUW1kQlF6UTFVSGRDUnkwdExTMHRMUzB0TFhaMGJtY3hPRUZCUVVGQlIzSnFSbWRqVEVzeGIydEJFZzVCUVRJNE56SjhRVUU1T1RVak1Sb0xDS2lBYXhBQ0dnTkNVa3c0SEhER2dSUT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJNSUEiLG51bGwsIkFBIiwiOTU4Il0sWyJNSUEiLCIyMDI3LTAxLTI0IiwiTUNPIixudWxsLCJBQSIsIjI0NzMiXV0sW1siTUNPIiwiMjAyNy0wMi0wOSIsIk1JQSIsbnVsbCwiQUEiLCIyODcyIl0sWyJNSUEiLCIyMDI3LTAyLTA5IiwiR1JVIixudWxsLCJBQSIsIjk5NSJdXV0=",
-      "checkedAt": "2026-10-29T09:46:42.125894+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 17532,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 22:35"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 05:05"
-          },
-          "duration": 510,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 958",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1122 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-01-24 07:42"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-24 08:54"
-          },
-          "duration": 72,
-          "airplane": "Airbus A321",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 2473",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 175 kg"
-          ]
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 20:04"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 21:24"
-          },
-          "duration": 80,
+          "duration": 134,
           "airplane": "Boeing 737",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "AA 2867",
+          "flight_number": "UA 1893",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 169 kg"
+            "Carbon emissions estimate: 350 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional de Miami",
-            "id": "MIA",
-            "time": "2027-02-09 22:50"
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 22:25"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-10 09:25"
+            "time": "2027-02-08 10:20"
           },
-          "duration": 515,
-          "airplane": "Boeing 777",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "AA 925",
+          "flight_number": "UA 861",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
             "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1251 kg"
+            "Carbon emissions estimate: 1568 kg"
           ],
           "overnight": true
         }
       ],
-      "outboundDuration": 739,
-      "returnDuration": 681,
+      "outboundDuration": 1282,
+      "returnDuration": 1370,
       "outboundLayovers": [
         {
-          "duration": 157,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
+          "duration": 525,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
         }
       ],
       "returnLayovers": [
         {
-          "duration": 86,
-          "name": "Aeroporto Internacional de Miami",
-          "id": "MIA"
+          "duration": 641,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
         }
       ],
-      "bookingToken": "WyJDalJJU0hWRFMzVjBWSGRZUW1kQlF6UTFVSGRDUnkwdExTMHRMUzB0TFhaMGJtY3hPRUZCUVVGQlIzSnFSbWRqVEVzeGIydEJFZzVCUVRJNE5qZDhRVUU1TWpVak1Sb0xDS2lBYXhBQ0dnTkNVa3c0SEhER2dSUT0iLFtbIkdSVSIsIjIwMjctMDEtMjMiLCJNSUEiLG51bGwsIkFBIiwiOTU4Il0sWyJNSUEiLCIyMDI3LTAxLTI0IiwiTUNPIixudWxsLCJBQSIsIjI0NzMiXV0sW1siTUNPIiwiMjAyNy0wMi0wOSIsIk1JQSIsbnVsbCwiQUEiLCIyODY3Il0sWyJNSUEiLCIyMDI3LTAyLTA5IiwiR1JVIixudWxsLCJBQSIsIjkyNSJdXV0=",
-      "checkedAt": "2026-10-29T09:46:42.125894+00:00"
+      "bookingToken": "WyJDalJJYldwdWN6TXRNbFJxYVdOQlFUQnlWRUZDUnkwdExTMHRMVzlyZEhZeU1TMXVNVUZCUVVGQlIzSnFka3huU1VsWlNUSkJFZzVWUVRFNE9UTjhWVUU0TmpFak1Sb0xDTnJ5VkJBQ0dnTkNVa3c0SEhDSTRROD0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiTUNPIixudWxsLCJVQSIsIjExMDEiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIklBRCIsbnVsbCwiVUEiLCIxODkzIl0sWyJJQUQiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJVQSIsIjg2MSJdXV0=",
+      "checkedAt": "2026-10-29T21:37:53.961239+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 14230,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
+          },
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 15:15"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 17:47"
+          },
+          "duration": 152,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1101",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 300 kg"
+          ]
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 17:28"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 19:42"
+          },
+          "duration": 134,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 692",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 350 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 10:20"
+          },
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 861",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1568 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1282,
+      "returnDuration": 892,
+      "outboundLayovers": [
+        {
+          "duration": 525,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 163,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "bookingToken": "WyJDalJJYldwdWN6TXRNbFJxYVdOQlFUQnlWRUZDUnkwdExTMHRMVzlyZEhZeU1TMXVNVUZCUVVGQlIzSnFka3huU1VsWlNUSkJFZzFWUVRZNU1ueFZRVGcyTVNNeEdnc0lqdTFXRUFJYUEwSlNURGdjY01XUEVBPT0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiTUNPIixudWxsLCJVQSIsIjExMDEiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIklBRCIsbnVsbCwiVUEiLCI2OTIiXSxbIklBRCIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIlVBIiwiODYxIl1dXQ==",
+      "checkedAt": "2026-10-29T21:37:53.961239+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 14711,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
+          },
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 15:15"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 17:47"
+          },
+          "duration": 152,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1101",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 300 kg"
+          ]
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 19:17"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 21:29"
+          },
+          "duration": 132,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1997",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 293 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-02-07 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 10:20"
+          },
+          "duration": 595,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 861",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1568 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1282,
+      "returnDuration": 783,
+      "outboundLayovers": [
+        {
+          "duration": 525,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 56,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "bookingToken": "WyJDalJJYldwdWN6TXRNbFJxYVdOQlFUQnlWRUZDUnkwdExTMHRMVzlyZEhZeU1TMXVNVUZCUVVGQlIzSnFka3huU1VsWlNUSkJFZzVWUVRFNU9UZDhWVUU0TmpFak1Sb0xDTnprV1JBQ0dnTkNVa3c0SEhDaDFSQT0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiTUNPIixudWxsLCJVQSIsIjExMDEiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIklBRCIsbnVsbCwiVUEiLCIxOTk3Il0sWyJJQUQiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJVQSIsIjg2MSJdXV0=",
+      "checkedAt": "2026-10-29T21:37:53.961239+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 36409,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 22:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 06:30"
+          },
+          "duration": 605,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 860",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1506 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Washington Dulles",
+            "id": "IAD",
+            "time": "2027-01-25 15:15"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 17:47"
+          },
+          "duration": 152,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1101",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 300 kg"
+          ]
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 14:26"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Tocumen",
+            "id": "PTY",
+            "time": "2027-02-07 17:53"
+          },
+          "duration": 207,
+          "airplane": "Boeing 737",
+          "airline": "COPA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+          "travel_class": "Economy",
+          "flight_number": "CM 868",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 556 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Tocumen",
+            "id": "PTY",
+            "time": "2027-02-07 18:37"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 03:35"
+          },
+          "duration": 418,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "COPA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+          "travel_class": "Economy",
+          "flight_number": "CM 810",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 1052 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1282,
+      "returnDuration": 669,
+      "outboundLayovers": [
+        {
+          "duration": 525,
+          "name": "Aeroporto Internacional Washington Dulles",
+          "id": "IAD"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 44,
+          "name": "Aeroporto Internacional Tocumen",
+          "id": "PTY"
+        }
+      ],
+      "bookingToken": "WyJDalJJYldwdWN6TXRNbFJxYVdOQlFUQnlWRUZDUnkwdExTMHRMVzlyZEhZeU1TMXVNVUZCUVVGQlIzSnFka3huU1VsWlNUSkJFZzFEVFRnMk9IeERUVGd4TUNNeEdnd0lsWnplQVJBQ0dnTkNVa3c0SEhEaW55az0iLFtbIkdSVSIsIjIwMjctMDEtMjQiLCJJQUQiLG51bGwsIlVBIiwiODYwIl0sWyJJQUQiLCIyMDI3LTAxLTI1IiwiTUNPIixudWxsLCJVQSIsIjExMDEiXV0sW1siTUNPIiwiMjAyNy0wMi0wNyIsIlBUWSIsbnVsbCwiQ00iLCI4NjgiXSxbIlBUWSIsIjIwMjctMDItMDciLCJHUlUiLG51bGwsIkNNIiwiODEwIl1dXQ==",
+      "checkedAt": "2026-10-29T21:37:53.961239+00:00"
     }
   ],
   "errors": [],
@@ -907,8 +583,8 @@
   "query": {
     "origin": "GRU",
     "destination": "MCO",
-    "depart": "2027-01-23",
-    "returnDate": "2027-02-09",
+    "depart": "2027-01-24",
+    "returnDate": "2027-02-07",
     "adults": 2,
     "children": 1
   }
