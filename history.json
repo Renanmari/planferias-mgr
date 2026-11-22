@@ -1182,5 +1182,20 @@
     "apiQueries": 2,
     "lowestRoundTripPrice": 15829,
     "currency": "BRL"
+  },
+  {
+    "checkedAt": "2026-11-22T17:02:05.763470+00:00",
+    "status": "completed",
+    "query": {
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "adults": 2,
+      "children": 1
+    },
+    "apiQueries": 2,
+    "lowestRoundTripPrice": 14553,
+    "currency": "BRL"
   }
 ]
