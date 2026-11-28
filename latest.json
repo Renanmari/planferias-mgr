@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T03:11:51.600813+00:00",
+  "updated_at": "2026-11-28T17:28:34.707933+00:00",
   "source": "SerpApi / Google Flights",
   "status": "completed",
   "offers": [
@@ -7,8 +7,154 @@
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 12132,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 21:45"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 06:10"
+          },
+          "duration": 625,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 97",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1255 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 16:00"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 19:36"
+          },
+          "duration": 216,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 1636",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 442 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Rouge"
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 08:30"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-02-07 11:37"
+          },
+          "duration": 187,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 1635",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 456 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Rouge"
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-02-07 20:55"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 09:00"
+          },
+          "duration": 605,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 96",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1255 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1431,
+      "returnDuration": 1350,
+      "outboundLayovers": [
+        {
+          "duration": 590,
+          "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+          "id": "YUL"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 558,
+          "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+          "id": "YUL"
+        }
+      ],
+      "bookingToken": "WyJDalJJYkd4dk1FdEdiblIwYVVsQlRURmxNbEZDUnkwdExTMHRMUzF2YTNoeE1TMXVNa0ZCUVVGQlIzTk1SREF3UmxkdWJrMUJFZ3RCUXpFMk16VjhRVU01TmhvTENJR0dTaEFDR2dOQ1VrdzRISEQ2cUEwPSIsW1siR1JVIiwiMjAyNy0wMS0yNCIsIllVTCIsbnVsbCwiQUMiLCI5NyJdLFsiWVVMIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiQUMiLCIxNjM2Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJZVUwiLG51bGwsIkFDIiwiMTYzNSJdLFsiWVVMIiwiMjAyNy0wMi0wNyIsIkdSVSIsbnVsbCwiQUMiLCI5NiJdXV0=",
+      "checkedAt": "2026-11-28T17:28:34.707933+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
       "priceTotal": 13050,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
@@ -23,53 +169,53 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-23 21:30"
+            "time": "2027-01-24 21:45"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 05:50"
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 06:10"
           },
-          "duration": 620,
+          "duration": 625,
           "airplane": "Boeing 787",
           "airline": "Air Canada",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
           "travel_class": "Economy",
-          "flight_number": "AC 91",
+          "flight_number": "AC 97",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
             "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1262 kg"
+            "Carbon emissions estimate: 1255 kg"
           ],
           "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 08:10"
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 16:00"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-24 11:13"
+            "time": "2027-01-25 19:36"
           },
-          "duration": 183,
-          "airplane": "Airbus A321",
+          "duration": 216,
+          "airplane": "Boeing 737MAX 8 Passenger",
           "airline": "Air Canada",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
           "travel_class": "Economy",
-          "flight_number": "AC 1672",
+          "flight_number": "AC 1636",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
             "Free Wi-Fi",
             "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 480 kg"
+            "On-demand video",
+            "Carbon emissions estimate: 442 kg"
           ],
           "plane_and_crew_by": "Air Canada Rouge"
         }
@@ -79,12 +225,158 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-09 13:25"
+            "time": "2027-02-07 10:35"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Pearson de Toronto",
+            "id": "YYZ",
+            "time": "2027-02-07 13:27"
+          },
+          "duration": 172,
+          "airplane": "Airbus A321",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 1673",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 495 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Rouge"
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Pearson de Toronto",
+            "id": "YYZ",
+            "time": "2027-02-07 22:35"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-02-08 10:35"
+          },
+          "duration": 600,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 90",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1262 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "outboundDuration": 1431,
+      "returnDuration": 1320,
+      "outboundLayovers": [
+        {
+          "duration": 590,
+          "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+          "id": "YUL"
+        }
+      ],
+      "returnLayovers": [
+        {
+          "duration": 548,
+          "name": "Aeroporto Internacional Pearson de Toronto",
+          "id": "YYZ"
+        }
+      ],
+      "bookingToken": "WyJDalJJYkd4dk1FdEdiblIwYVVsQlRURmxNbEZDUnkwdExTMHRMUzF2YTNoeE1TMXVNa0ZCUVVGQlIzTk1SREF3UmxkdWJrMUJFZ3RCUXpFMk56TjhRVU01TUJvTENLalRUeEFDR2dOQ1VrdzRISEQrcVE0PSIsW1siR1JVIiwiMjAyNy0wMS0yNCIsIllVTCIsbnVsbCwiQUMiLCI5NyJdLFsiWVVMIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiQUMiLCIxNjM2Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJZWVoiLG51bGwsIkFDIiwiMTY3MyJdLFsiWVlaIiwiMjAyNy0wMi0wNyIsIkdSVSIsbnVsbCwiQUMiLCI5MCJdXV0=",
+      "checkedAt": "2026-11-28T17:28:34.707933+00:00"
+    },
+    {
+      "routeId": "orlando-2027-teste",
+      "origin": "GRU",
+      "destination": "MCO",
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 14006,
+      "currency": "BRL",
+      "source": "SerpApi / Google Flights",
+      "priceType": "roundtrip_selection",
+      "roundTripConfirmed": true,
+      "passengers": {
+        "adults": 2,
+        "children": 1
+      },
+      "outboundFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
+            "id": "GRU",
+            "time": "2027-01-24 21:45"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional Pierre Elliott Trudeau",
             "id": "YUL",
-            "time": "2027-02-09 16:36"
+            "time": "2027-01-25 06:10"
+          },
+          "duration": 625,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 97",
+          "legroom": "79 cm",
+          "extensions": [
+            "Average legroom (79 cm)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1255 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 16:00"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-01-25 19:36"
+          },
+          "duration": 216,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 1636",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 442 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Rouge"
+        }
+      ],
+      "returnFlights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto Internacional de Orlando",
+            "id": "MCO",
+            "time": "2027-02-07 13:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-02-07 16:36"
           },
           "duration": 191,
           "airplane": "Boeing 737MAX 8 Passenger",
@@ -106,12 +398,12 @@
           "departure_airport": {
             "name": "Aeroporto Internacional Pierre Elliott Trudeau",
             "id": "YUL",
-            "time": "2027-02-09 20:55"
+            "time": "2027-02-07 20:55"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-10 09:00"
+            "time": "2027-02-08 09:00"
           },
           "duration": 605,
           "airplane": "Boeing 787",
@@ -130,13 +422,13 @@
           "overnight": true
         }
       ],
-      "outboundDuration": 943,
+      "outboundDuration": 1431,
       "returnDuration": 1055,
       "outboundLayovers": [
         {
-          "duration": 140,
-          "name": "Aeroporto Internacional Pearson de Toronto",
-          "id": "YYZ"
+          "duration": 590,
+          "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+          "id": "YUL"
         }
       ],
       "returnLayovers": [
@@ -146,16 +438,16 @@
           "id": "YUL"
         }
       ],
-      "bookingToken": "WyJDalJJVms1aU1FTnlWMEpaZHpCQlMyMXVaMmRDUnkwdExTMHRMVzk1WjJReE55MXVNa0ZCUVVGQlIzTkxVbTl6UmxvdFZsbEJFZ3RCUXpFMk16ZDhRVU01TmhvTENLalRUeEFDR2dOQ1VrdzRISEQrcVE0PSIsW1siR1JVIiwiMjAyNy0wMS0yMyIsIllZWiIsbnVsbCwiQUMiLCI5MSJdLFsiWVlaIiwiMjAyNy0wMS0yNCIsIk1DTyIsbnVsbCwiQUMiLCIxNjcyIl1dLFtbIk1DTyIsIjIwMjctMDItMDkiLCJZVUwiLG51bGwsIkFDIiwiMTYzNyJdLFsiWVVMIiwiMjAyNy0wMi0wOSIsIkdSVSIsbnVsbCwiQUMiLCI5NiJdXV0=",
-      "checkedAt": "2026-11-28T03:11:51.600813+00:00"
+      "bookingToken": "WyJDalJJYkd4dk1FdEdiblIwYVVsQlRURmxNbEZDUnkwdExTMHRMUzF2YTNoeE1TMXVNa0ZCUVVGQlIzTk1SREF3UmxkdWJrMUJFZ3RCUXpFMk16ZDhRVU01TmhvTENOcTlWUkFDR2dOQ1VrdzRISENnc0E4PSIsW1siR1JVIiwiMjAyNy0wMS0yNCIsIllVTCIsbnVsbCwiQUMiLCI5NyJdLFsiWVVMIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiQUMiLCIxNjM2Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJZVUwiLG51bGwsIkFDIiwiMTYzNyJdLFsiWVVMIiwiMjAyNy0wMi0wNyIsIkdSVSIsbnVsbCwiQUMiLCI5NiJdXV0=",
+      "checkedAt": "2026-11-28T17:28:34.707933+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 13969,
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 37385,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -169,53 +461,53 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-23 21:30"
+            "time": "2027-01-24 21:45"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 05:50"
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 06:10"
           },
-          "duration": 620,
+          "duration": 625,
           "airplane": "Boeing 787",
           "airline": "Air Canada",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
           "travel_class": "Economy",
-          "flight_number": "AC 91",
+          "flight_number": "AC 97",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
             "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1262 kg"
+            "Carbon emissions estimate: 1255 kg"
           ],
           "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 08:10"
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 16:00"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-24 11:13"
+            "time": "2027-01-25 19:36"
           },
-          "duration": 183,
-          "airplane": "Airbus A321",
+          "duration": 216,
+          "airplane": "Boeing 737MAX 8 Passenger",
           "airline": "Air Canada",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
           "travel_class": "Economy",
-          "flight_number": "AC 1672",
+          "flight_number": "AC 1636",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
             "Free Wi-Fi",
             "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 480 kg"
+            "On-demand video",
+            "Carbon emissions estimate: 442 kg"
           ],
           "plane_and_crew_by": "Air Canada Rouge"
         }
@@ -225,191 +517,43 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-09 16:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-02-09 19:05"
-          },
-          "duration": 175,
-          "airplane": "Airbus A321",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 1677",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 495 kg"
-          ],
-          "often_delayed_by_over_30_min": true,
-          "plane_and_crew_by": "Air Canada Rouge"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-02-09 22:35"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-02-10 10:35"
-          },
-          "duration": 600,
-          "airplane": "Boeing 787",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 90",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1262 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "outboundDuration": 943,
-      "returnDuration": 985,
-      "outboundLayovers": [
-        {
-          "duration": 140,
-          "name": "Aeroporto Internacional Pearson de Toronto",
-          "id": "YYZ"
-        }
-      ],
-      "returnLayovers": [
-        {
-          "duration": 210,
-          "name": "Aeroporto Internacional Pearson de Toronto",
-          "id": "YYZ"
-        }
-      ],
-      "bookingToken": "WyJDalJJVms1aU1FTnlWMEpaZHpCQlMyMXVaMmRDUnkwdExTMHRMVzk1WjJReE55MXVNa0ZCUVVGQlIzTkxVbTl6UmxvdFZsbEJFZ3RCUXpFMk56ZDhRVU01TUJvTENNMmdWUkFDR2dOQ1VrdzRISENDcXc4PSIsW1siR1JVIiwiMjAyNy0wMS0yMyIsIllZWiIsbnVsbCwiQUMiLCI5MSJdLFsiWVlaIiwiMjAyNy0wMS0yNCIsIk1DTyIsbnVsbCwiQUMiLCIxNjcyIl1dLFtbIk1DTyIsIjIwMjctMDItMDkiLCJZWVoiLG51bGwsIkFDIiwiMTY3NyJdLFsiWVlaIiwiMjAyNy0wMi0wOSIsIkdSVSIsbnVsbCwiQUMiLCI5MCJdXV0=",
-      "checkedAt": "2026-11-28T03:11:51.600813+00:00"
-    },
-    {
-      "routeId": "orlando-2027-teste",
-      "origin": "GRU",
-      "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 39334,
-      "currency": "BRL",
-      "source": "SerpApi / Google Flights",
-      "priceType": "roundtrip_selection",
-      "roundTripConfirmed": true,
-      "passengers": {
-        "adults": 2,
-        "children": 1
-      },
-      "outboundFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
-            "id": "GRU",
-            "time": "2027-01-23 21:30"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 05:50"
-          },
-          "duration": 620,
-          "airplane": "Boeing 787",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 91",
-          "legroom": "79 cm",
-          "extensions": [
-            "Average legroom (79 cm)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1262 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 08:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-01-24 11:13"
-          },
-          "duration": 183,
-          "airplane": "Airbus A321",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 1672",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Free Wi-Fi",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 480 kg"
-          ],
-          "plane_and_crew_by": "Air Canada Rouge"
-        }
-      ],
-      "returnFlights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto Internacional de Orlando",
-            "id": "MCO",
-            "time": "2027-02-09 07:06"
+            "time": "2027-02-07 10:52"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional Tocumen",
             "id": "PTY",
-            "time": "2027-02-09 10:33"
+            "time": "2027-02-07 14:22"
           },
-          "duration": 207,
-          "airplane": "Boeing 737MAX 9 Passenger",
+          "duration": 210,
+          "airplane": "Boeing 737",
           "airline": "COPA",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
           "travel_class": "Economy",
-          "flight_number": "CM 435",
-          "legroom": "76 cm",
+          "flight_number": "CM 239",
+          "legroom": "79 cm",
           "extensions": [
-            "Average legroom (76 cm)",
+            "Average legroom (79 cm)",
             "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 481 kg"
+            "Carbon emissions estimate: 556 kg"
           ]
         },
         {
           "departure_airport": {
             "name": "Aeroporto Internacional Tocumen",
             "id": "PTY",
-            "time": "2027-02-09 11:54"
+            "time": "2027-02-07 15:12"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-09 20:50"
+            "time": "2027-02-08 00:10"
           },
-          "duration": 416,
+          "duration": 418,
           "airplane": "Boeing 737MAX 9 Passenger",
           "airline": "COPA",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
           "travel_class": "Economy",
-          "flight_number": "CM 701",
+          "flight_number": "CM 725",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
@@ -419,32 +563,32 @@
           ]
         }
       ],
-      "outboundDuration": 943,
-      "returnDuration": 704,
+      "outboundDuration": 1431,
+      "returnDuration": 678,
       "outboundLayovers": [
         {
-          "duration": 140,
-          "name": "Aeroporto Internacional Pearson de Toronto",
-          "id": "YYZ"
+          "duration": 590,
+          "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+          "id": "YUL"
         }
       ],
       "returnLayovers": [
         {
-          "duration": 81,
+          "duration": 50,
           "name": "Aeroporto Internacional Tocumen",
           "id": "PTY"
         }
       ],
-      "bookingToken": "WyJDalJJVms1aU1FTnlWMEpaZHpCQlMyMXVaMmRDUnkwdExTMHRMVzk1WjJReE55MXVNa0ZCUVVGQlIzTkxVbTl6UmxvdFZsbEJFZ3REVFRRek5YeERUVGN3TVJvTUNJeUo4QUVRQWhvRFFsSk1PQnh3MjVjciIsW1siR1JVIiwiMjAyNy0wMS0yMyIsIllZWiIsbnVsbCwiQUMiLCI5MSJdLFsiWVlaIiwiMjAyNy0wMS0yNCIsIk1DTyIsbnVsbCwiQUMiLCIxNjcyIl1dLFtbIk1DTyIsIjIwMjctMDItMDkiLCJQVFkiLG51bGwsIkNNIiwiNDM1Il0sWyJQVFkiLCIyMDI3LTAyLTA5IiwiR1JVIixudWxsLCJDTSIsIjcwMSJdXV0=",
-      "checkedAt": "2026-11-28T03:11:51.600813+00:00"
+      "bookingToken": "WyJDalJJYkd4dk1FdEdiblIwYVVsQlRURmxNbEZDUnkwdExTMHRMUzF2YTNoeE1TMXVNa0ZCUVVGQlIzTk1SREF3UmxkdWJrMUJFZ3REVFRJek9YeERUVGN5TlJvTUNLcVc1QUVRQWhvRFFsSk1PQnh3NVlVcCIsW1siR1JVIiwiMjAyNy0wMS0yNCIsIllVTCIsbnVsbCwiQUMiLCI5NyJdLFsiWVVMIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiQUMiLCIxNjM2Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJQVFkiLG51bGwsIkNNIiwiMjM5Il0sWyJQVFkiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJDTSIsIjcyNSJdXV0=",
+      "checkedAt": "2026-11-28T17:28:34.707933+00:00"
     },
     {
       "routeId": "orlando-2027-teste",
       "origin": "GRU",
       "destination": "MCO",
-      "depart": "2027-01-23",
-      "returnDate": "2027-02-09",
-      "priceTotal": 42870,
+      "depart": "2027-01-24",
+      "returnDate": "2027-02-07",
+      "priceTotal": 38754,
       "currency": "BRL",
       "source": "SerpApi / Google Flights",
       "priceType": "roundtrip_selection",
@@ -458,53 +602,53 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-01-23 21:30"
+            "time": "2027-01-24 21:45"
           },
           "arrival_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 05:50"
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 06:10"
           },
-          "duration": 620,
+          "duration": 625,
           "airplane": "Boeing 787",
           "airline": "Air Canada",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
           "travel_class": "Economy",
-          "flight_number": "AC 91",
+          "flight_number": "AC 97",
           "legroom": "79 cm",
           "extensions": [
             "Average legroom (79 cm)",
             "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "On-demand video",
-            "Carbon emissions estimate: 1262 kg"
+            "Carbon emissions estimate: 1255 kg"
           ],
           "overnight": true
         },
         {
           "departure_airport": {
-            "name": "Aeroporto Internacional Pearson de Toronto",
-            "id": "YYZ",
-            "time": "2027-01-24 08:10"
+            "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+            "id": "YUL",
+            "time": "2027-01-25 16:00"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-01-24 11:13"
+            "time": "2027-01-25 19:36"
           },
-          "duration": 183,
-          "airplane": "Airbus A321",
+          "duration": 216,
+          "airplane": "Boeing 737MAX 8 Passenger",
           "airline": "Air Canada",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
           "travel_class": "Economy",
-          "flight_number": "AC 1672",
+          "flight_number": "AC 1636",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
             "Free Wi-Fi",
             "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 480 kg"
+            "On-demand video",
+            "Carbon emissions estimate: 442 kg"
           ],
           "plane_and_crew_by": "Air Canada Rouge"
         }
@@ -514,12 +658,12 @@
           "departure_airport": {
             "name": "Aeroporto Internacional de Orlando",
             "id": "MCO",
-            "time": "2027-02-09 14:26"
+            "time": "2027-02-07 14:26"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional Tocumen",
             "id": "PTY",
-            "time": "2027-02-09 17:53"
+            "time": "2027-02-07 17:53"
           },
           "duration": 207,
           "airplane": "Boeing 737",
@@ -538,12 +682,12 @@
           "departure_airport": {
             "name": "Aeroporto Internacional Tocumen",
             "id": "PTY",
-            "time": "2027-02-09 18:37"
+            "time": "2027-02-07 18:37"
           },
           "arrival_airport": {
             "name": "Aeroporto Internacional de São Paulo/Guarulhos–Governador André Franco Montoro",
             "id": "GRU",
-            "time": "2027-02-10 03:35"
+            "time": "2027-02-08 03:35"
           },
           "duration": 418,
           "airplane": "Boeing 737MAX 9 Passenger",
@@ -561,13 +705,13 @@
           "overnight": true
         }
       ],
-      "outboundDuration": 943,
+      "outboundDuration": 1431,
       "returnDuration": 669,
       "outboundLayovers": [
         {
-          "duration": 140,
-          "name": "Aeroporto Internacional Pearson de Toronto",
-          "id": "YYZ"
+          "duration": 590,
+          "name": "Aeroporto Internacional Pierre Elliott Trudeau",
+          "id": "YUL"
         }
       ],
       "returnLayovers": [
@@ -577,8 +721,8 @@
           "id": "PTY"
         }
       ],
-      "bookingToken": "WyJDalJJVms1aU1FTnlWMEpaZHpCQlMyMXVaMmRDUnkwdExTMHRMVzk1WjJReE55MXVNa0ZCUVVGQlIzTkxVbTl6UmxvdFZsbEJFZ3REVFRnMk9IeERUVGd4TUJvTUNQZlRoUUlRQWhvRFFsSk1PQnh3Mm9ndiIsW1siR1JVIiwiMjAyNy0wMS0yMyIsIllZWiIsbnVsbCwiQUMiLCI5MSJdLFsiWVlaIiwiMjAyNy0wMS0yNCIsIk1DTyIsbnVsbCwiQUMiLCIxNjcyIl1dLFtbIk1DTyIsIjIwMjctMDItMDkiLCJQVFkiLG51bGwsIkNNIiwiODY4Il0sWyJQVFkiLCIyMDI3LTAyLTA5IiwiR1JVIixudWxsLCJDTSIsIjgxMCJdXV0=",
-      "checkedAt": "2026-11-28T03:11:51.600813+00:00"
+      "bookingToken": "WyJDalJJYkd4dk1FdEdiblIwYVVsQlRURmxNbEZDUnkwdExTMHRMUzF2YTNoeE1TMXVNa0ZCUVVGQlIzTk1SREF3UmxkdWJrMUJFZ3REVFRnMk9IeERUVGd4TUJvTUNQbkQ3QUVRQWhvRFFsSk1PQnh3bWNZcSIsW1siR1JVIiwiMjAyNy0wMS0yNCIsIllVTCIsbnVsbCwiQUMiLCI5NyJdLFsiWVVMIiwiMjAyNy0wMS0yNSIsIk1DTyIsbnVsbCwiQUMiLCIxNjM2Il1dLFtbIk1DTyIsIjIwMjctMDItMDciLCJQVFkiLG51bGwsIkNNIiwiODY4Il0sWyJQVFkiLCIyMDI3LTAyLTA3IiwiR1JVIixudWxsLCJDTSIsIjgxMCJdXV0=",
+      "checkedAt": "2026-11-28T17:28:34.707933+00:00"
     }
   ],
   "errors": [],
@@ -587,8 +731,8 @@
   "query": {
     "origin": "GRU",
     "destination": "MCO",
-    "depart": "2027-01-23",
-    "returnDate": "2027-02-09",
+    "depart": "2027-01-24",
+    "returnDate": "2027-02-07",
     "adults": 2,
     "children": 1
   }
